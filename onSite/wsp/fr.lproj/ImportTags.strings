@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Title"; ObjectID = "9Yg-OO-yBU"; */
+"9Yg-OO-yBU.text" = "Titre";
+
+/* Class = "UILabel"; text = "From Excel File..."; ObjectID = "Edh-gd-fEK"; */
+"Edh-gd-fEK.text" = "Importer Excel";
+
+/* Class = "UINavigationItem"; title = "Import Tag Options"; ObjectID = "d42-CV-XNr"; */
+"d42-CV-XNr.title" = "Nouvelle bibliothèque";
+
+/* Class = "UILabel"; text = "From Another Project"; ObjectID = "eDI-fE-gva"; */
+"eDI-fE-gva.text" = "Copier d'un projet";
+

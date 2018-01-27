@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Import"; ObjectID = "7Du-sg-wYz"; */
+"7Du-sg-wYz.text" = "Importer";
+
+/* Class = "UILabel"; text = "Gallery"; ObjectID = "Qdo-rs-KFz"; */
+"Qdo-rs-KFz.text" = "Galerie";
+
+/* Class = "UILabel"; text = "Camera"; ObjectID = "Qe5-tG-7Io"; */
+"Qe5-tG-7Io.text" = "Prendre une photo";
+
+/* Class = "UINavigationItem"; title = "Select an Image"; ObjectID = "aHb-W9-AYB"; */
+"aHb-W9-AYB.title" = "Sélectionner une photo";
+

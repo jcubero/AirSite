@@ -1,0 +1,48 @@
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "9uP-5T-mvv"; */
+"9uP-5T-mvv.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Copied"; ObjectID = "AjB-9M-xJc"; */
+"AjB-9M-xJc.text" = "Coller";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "DDo-nd-Hz4"; */
+"DDo-nd-Hz4.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "GLL-NO-qmB"; */
+"GLL-NO-qmB.normalTitle" = "Soumettre";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "JJN-ua-KbO"; */
+"JJN-ua-KbO.text" = "Élément descriptif";
+
+/* Class = "UILabel"; text = "Pinned"; ObjectID = "KcO-1p-fQS"; */
+"KcO-1p-fQS.text" = "Favoris";
+
+/* Class = "UILabel"; text = ""; ObjectID = "Rpy-Jb-q4B"; */
+"Rpy-Jb-q4B.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "VAf-KW-kAq"; */
+"VAf-KW-kAq.normalTitle" = "";
+
+/* Class = "UILabel"; text = "No areas have been defined"; ObjectID = "Y8k-B9-v8O"; */
+"Y8k-B9-v8O.text" = "Ajouter un plan";
+
+/* Class = "UILabel"; text = "Recently Used"; ObjectID = "ZBY-ot-xmX"; */
+"ZBY-ot-xmX.text" = "Speedrack";
+
+/* Class = "UITextField"; placeholder = "Comment"; ObjectID = "b0U-7g-x7m"; */
+"b0U-7g-x7m.placeholder" = "Ajouter commentaire";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "cjk-JB-Bi9"; */
+"cjk-JB-Bi9.text" = "Élément descriptif";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hby-Ai-9Mx"; */
+"hby-Ai-9Mx.text" = "Titre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iVf-Yp-2eN"; */
+"iVf-Yp-2eN.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "o7D-S3-FNL"; */
+"o7D-S3-FNL.normalTitle" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "oxJ-Kh-n2D"; */
+"oxJ-Kh-n2D.text" = "";
+

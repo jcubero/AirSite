@@ -1,0 +1,36 @@
+/* Class = "UITableViewController"; title = "Import Options"; ObjectID = "6u3-aO-oF1"; */
+"6u3-aO-oF1.title" = "Options d'importation";
+
+/* Class = "UINavigationItem"; title = "WSP Server"; ObjectID = "8JF-tk-m4I"; */
+"8JF-tk-m4I.title" = "Serveur WSP";
+
+/* Class = "UILabel"; text = "Archive"; ObjectID = "8ho-Ja-PFZ"; */
+"8ho-Ja-PFZ.text" = "Archive";
+
+/* Class = "UILabel"; text = "Excel"; ObjectID = "DaP-4G-AFD"; */
+"DaP-4G-AFD.text" = "Excel";
+
+/* Class = "UILabel"; text = "Settings & Areas"; ObjectID = "I3l-Ab-05T"; */
+"I3l-Ab-05T.text" = "Paramètres + Plans";
+
+/* Class = "UILabel"; text = "WSP Server"; ObjectID = "VtW-h3-5l1"; */
+"VtW-h3-5l1.text" = "Serveur WSP";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "W5V-D1-J3W"; */
+"W5V-D1-J3W.text" = "Titre";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "bnj-5S-f6V"; */
+"bnj-5S-f6V.text" = "Paramètres";
+
+/* Class = "UILabel"; text = "Zip"; ObjectID = "dtu-4P-ZcL"; */
+"dtu-4P-ZcL.text" = "Zip";
+
+/* Class = "UILabel"; text = "InField"; ObjectID = "eF3-Er-cPb"; */
+"eF3-Er-cPb.text" = "InField";
+
+/* Class = "UIViewController"; title = "WSP Server"; ObjectID = "fQN-G7-YWy"; */
+"fQN-G7-YWy.title" = "Serveur WSP";
+
+/* Class = "UINavigationItem"; title = "Import Options"; ObjectID = "qCV-2U-Kix"; */
+"qCV-2U-Kix.title" = "Options d'importation";
+

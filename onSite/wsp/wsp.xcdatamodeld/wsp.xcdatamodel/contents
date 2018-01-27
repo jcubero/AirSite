@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 4.3">
+    <entity name="Area" representedClassName="Area" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="image"/>
+                <entry key="JSONTransformerName" value="DataToBase"/>
+            </userInfo>
+        </attribute>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="order"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="title"/>
+            </userInfo>
+        </attribute>
+        <relationship name="issues" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Issue" inverseName="area" inverseEntity="Issue" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="issues"/>
+            </userInfo>
+        </relationship>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="areas" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Comment" representedClassName="Comment" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="areaHeight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="areaHeight"/>
+            </userInfo>
+        </attribute>
+        <attribute name="areaWidth" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="areaWidth"/>
+            </userInfo>
+        </attribute>
+        <attribute name="areaX" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="areaX"/>
+            </userInfo>
+        </attribute>
+        <attribute name="areaY" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="areaY"/>
+            </userInfo>
+        </attribute>
+        <attribute name="commentType" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="commentType"/>
+            </userInfo>
+        </attribute>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="image"/>
+                <entry key="JSONTransformerName" value="DataToBase"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="title"/>
+            </userInfo>
+        </attribute>
+        <relationship name="issue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Issue" inverseName="comments" inverseEntity="Issue" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="comments" inverseEntity="User" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="user"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="Issue" representedClassName="Issue" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="issueNumber" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="issueNumber"/>
+            </userInfo>
+        </attribute>
+        <relationship name="area" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Area" inverseName="issues" inverseEntity="Area" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Comment" inverseName="issue" inverseEntity="Comment" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="comments"/>
+            </userInfo>
+        </relationship>
+        <relationship name="positions" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Position" inverseName="issue" inverseEntity="Position" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="positions"/>
+            </userInfo>
+        </relationship>
+        <relationship name="tag" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tag" inverseName="issues" inverseEntity="Tag" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="tag"/>
+            </userInfo>
+        </relationship>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="issues" inverseEntity="User" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="user"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="Level" representedClassName="Level" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="isColorLevel" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="isColorLevel"/>
+            </userInfo>
+        </attribute>
+        <attribute name="level" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="level"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="title"/>
+            </userInfo>
+        </attribute>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="levels" inverseEntity="Project" syncable="YES"/>
+    </entity>
+    <entity name="Position" representedClassName="Position" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="hasArrow" optional="YES" attributeType="Boolean" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="hasArrow"/>
+            </userInfo>
+        </attribute>
+        <attribute name="markerX" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="markerX"/>
+            </userInfo>
+        </attribute>
+        <attribute name="markerY" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="markerY"/>
+            </userInfo>
+        </attribute>
+        <attribute name="unsavedArrow" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="x"/>
+            </userInfo>
+        </attribute>
+        <attribute name="y" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="y"/>
+            </userInfo>
+        </attribute>
+        <relationship name="issue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Issue" inverseName="positions" inverseEntity="Issue" syncable="YES"/>
+    </entity>
+    <entity name="Project" representedClassName="Project" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="buildingAddress" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="buildingAddress"/>
+            </userInfo>
+        </attribute>
+        <attribute name="buildingImage" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="buildingImage"/>
+                <entry key="JSONTransformerName" value="DataToBase"/>
+            </userInfo>
+        </attribute>
+        <attribute name="buildingName" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="buildingName"/>
+            </userInfo>
+        </attribute>
+        <attribute name="client" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="client"/>
+            </userInfo>
+        </attribute>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="image"/>
+                <entry key="JSONTransformerName" value="DataToBase"/>
+            </userInfo>
+        </attribute>
+        <attribute name="openCamera" optional="YES" attributeType="Boolean" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="openCamera"/>
+            </userInfo>
+        </attribute>
+        <attribute name="openComments" optional="YES" attributeType="Boolean" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="openComments"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photoAutoSave" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photoAutoSave"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photoEmbedPills" attributeType="Boolean" defaultValueString="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photoEmbedPills"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photoQuality" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photoQuality"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photosPageOrientation" attributeType="String" defaultValueString="P" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photosPageOrientation"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photosPerPageLandscape" attributeType="Integer 16" defaultValueString="9" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photosPerPageLandscape"/>
+            </userInfo>
+        </attribute>
+        <attribute name="photosPerPagePortrait" attributeType="Integer 16" defaultValueString="6" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="photosPerPagePortrait"/>
+            </userInfo>
+        </attribute>
+        <attribute name="pillSize" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="pillSize"/>
+            </userInfo>
+        </attribute>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="subtitle"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="title"/>
+            </userInfo>
+        </attribute>
+        <attribute name="userCompanyForReport" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="userCompany"/>
+            </userInfo>
+        </attribute>
+        <attribute name="userNameForReport" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="userName"/>
+            </userInfo>
+        </attribute>
+        <attribute name="userTitleForReport" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="userTitle"/>
+            </userInfo>
+        </attribute>
+        <relationship name="areas" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Area" inverseName="project" inverseEntity="Area" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="areas"/>
+            </userInfo>
+        </relationship>
+        <relationship name="levels" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Level" inverseName="project" inverseEntity="Level" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="levels"/>
+            </userInfo>
+        </relationship>
+        <relationship name="projectUsers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProjectUser" inverseName="project" inverseEntity="ProjectUser" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="projectUsers"/>
+            </userInfo>
+        </relationship>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Tag" inverseName="project" inverseEntity="Tag" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="tags"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="ProjectUser" representedClassName="ProjectUser" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="active" attributeType="Boolean" defaultValueString="YES" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="active"/>
+            </userInfo>
+        </attribute>
+        <attribute name="label" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="label"/>
+            </userInfo>
+        </attribute>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="projectUsers" inverseEntity="Project" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="projects" inverseEntity="User" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="user"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="SyncableModel" representedClassName="SyncableModel" isAbstract="YES" syncable="YES">
+        <attribute name="createdDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastSync" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="localUnique" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="localUnique"/>
+            </userInfo>
+        </attribute>
+        <attribute name="removed" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="removed"/>
+            </userInfo>
+        </attribute>
+        <userInfo>
+            <entry key="JSONKeyPath" value="createdDate"/>
+            <entry key="JSONTransformerName" value="DateToString"/>
+        </userInfo>
+    </entity>
+    <entity name="Tag" representedClassName="Tag" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="color"/>
+            </userInfo>
+        </attribute>
+        <attribute name="shape" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="shape"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="title"/>
+            </userInfo>
+        </attribute>
+        <attribute name="typeString" attributeType="String" defaultValueString="Text" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="typeString"/>
+            </userInfo>
+        </attribute>
+        <relationship name="children" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Tag" inverseName="parent" inverseEntity="Tag" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="children"/>
+            </userInfo>
+        </relationship>
+        <relationship name="issues" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Issue" inverseName="tag" inverseEntity="Issue" syncable="YES"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Tag" inverseName="children" inverseEntity="Tag" syncable="YES"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="tags" inverseEntity="Project" syncable="YES"/>
+        <userInfo>
+            <entry key="identityAttribute" value="localUnique"/>
+        </userInfo>
+    </entity>
+    <entity name="User" representedClassName="User" parentEntity="SyncableModel" syncable="YES">
+        <attribute name="administrator" optional="YES" attributeType="Boolean" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="administrator"/>
+            </userInfo>
+        </attribute>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="password"/>
+            </userInfo>
+        </attribute>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="JSONKeyPath" value="username"/>
+            </userInfo>
+        </attribute>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" inverseName="user" inverseEntity="Comment" syncable="YES"/>
+        <relationship name="issues" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Issue" inverseName="user" inverseEntity="Issue" syncable="YES"/>
+        <relationship name="projects" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ProjectUser" inverseName="user" inverseEntity="ProjectUser" syncable="YES"/>
+        <userInfo>
+            <entry key="identityAttribute" value="username"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="Area" positionX="-576" positionY="-0" width="128" height="120"/>
+        <element name="Comment" positionX="-531" positionY="173" width="128" height="180"/>
+        <element name="Issue" positionX="-794" positionY="414" width="128" height="30"/>
+        <element name="Level" positionX="-801" positionY="-54" width="128" height="105"/>
+        <element name="Position" positionX="-1008" positionY="414" width="128" height="150"/>
+        <element name="Project" positionX="-794" positionY="176" width="128" height="405"/>
+        <element name="ProjectUser" positionX="-801" positionY="-54" width="128" height="30"/>
+        <element name="SyncableModel" positionX="-792" positionY="-205" width="128" height="135"/>
+        <element name="Tag" positionX="-569" positionY="410" width="128" height="165"/>
+        <element name="User" positionX="-1008" positionY="0" width="128" height="30"/>
+    </elements>
+</model>

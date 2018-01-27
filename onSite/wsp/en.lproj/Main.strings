@@ -1,0 +1,366 @@
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "1C6-gu-nEc"; */
+"1C6-gu-nEc.normalTitle" = "Dismiss";
+
+/* Class = "UILabel"; text = "Orientation"; ObjectID = "1Xi-uj-K6h"; */
+"1Xi-uj-K6h.text" = "Orientation";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "1ob-xO-Yyj"; */
+"1ob-xO-Yyj.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "2iH-98-8g6"; */
+"2iH-98-8g6.normalTitle" = "";
+
+/* Class = "UILabel"; text = "8½ x 11"; ObjectID = "483-0R-1Yb"; */
+"483-0R-1Yb.text" = "8½ x 11";
+
+/* Class = "UITableViewSection"; headerTitle = "Format"; ObjectID = "5GN-wP-Rky"; */
+"5GN-wP-Rky.headerTitle" = "Format";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "6YX-1r-rJL"; */
+"6YX-1r-rJL.normalTitle" = "";
+
+/* Class = "UILabel"; text = "[User]"; ObjectID = "8dp-Ca-iXf"; */
+"8dp-Ca-iXf.text" = "[User]";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8dz-R5-P7q"; */
+"8dz-R5-P7q.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8q7-wm-3f5"; */
+"8q7-wm-3f5.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8y8-5i-NLd"; */
+"8y8-5i-NLd.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "9kn-Ak-evM"; */
+"9kn-Ak-evM.normalTitle" = "Delete";
+
+/* Class = "UINavigationItem"; title = "Edit Project"; ObjectID = "9kn-SB-BRU"; */
+"9kn-SB-BRU.title" = "Edit Project";
+
+/* Class = "UIButton"; normalTitle = "Arrow"; ObjectID = "Aej-qT-1Ch"; */
+"Aej-qT-1Ch.normalTitle" = "Arrow";
+
+/* Class = "UITabBarItem"; title = "Tag"; ObjectID = "Ala-a0-ABX"; */
+"Ala-a0-ABX.title" = "Tag";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "AmT-i4-4jD"; */
+"AmT-i4-4jD.normalTitle" = "Remove";
+
+/* Class = "UILabel"; text = "Photos"; ObjectID = "Ass-5e-EAf"; */
+"Ass-5e-EAf.text" = "Photos";
+
+/* Class = "UILabel"; text = "Include Cover Page"; ObjectID = "BZw-eL-iiV"; */
+"BZw-eL-iiV.text" = "Include Cover Page";
+
+/* Class = "UITextField"; placeholder = "Area title"; ObjectID = "BaS-hI-Bqm"; */
+"BaS-hI-Bqm.placeholder" = "Area title";
+
+/* Class = "UITextField"; placeholder = "Project Title"; ObjectID = "Bhk-jB-ViU"; */
+"Bhk-jB-ViU.placeholder" = "Project Title";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Bqw-GE-UvG"; */
+"Bqw-GE-UvG.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Cje-1g-Zh9"; */
+"Cje-1g-Zh9.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "DDo-nd-Hz4"; */
+"DDo-nd-Hz4.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Clone Project"; ObjectID = "DTg-jB-pY1"; */
+"DTg-jB-pY1.normalTitle" = "Clone Project";
+
+/* Class = "UIButton"; normalTitle = "Import"; ObjectID = "Dox-US-bWN"; */
+"Dox-US-bWN.normalTitle" = "Import";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "ETB-3X-Ci2"; */
+"ETB-3X-Ci2.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "Plans"; ObjectID = "EaH-tN-iMG"; */
+"EaH-tN-iMG.text" = "Plans";
+
+/* Class = "UITableViewController"; title = "Orientation"; ObjectID = "FaO-RG-RPc"; */
+"FaO-RG-RPc.title" = "Orientation";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "GLL-NO-qmB"; */
+"GLL-NO-qmB.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GMW-fs-jr8"; */
+"GMW-fs-jr8.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GWv-Rf-cLD"; */
+"GWv-Rf-cLD.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Project Image"; ObjectID = "H4B-wd-A26"; */
+"H4B-wd-A26.normalTitle" = "Project Image";
+
+/* Class = "UITextField"; placeholder = "Image caption"; ObjectID = "H69-SV-giv"; */
+"H69-SV-giv.placeholder" = "Image caption";
+
+/* Class = "UIButton"; normalTitle = "Import"; ObjectID = "HUf-i5-6pW"; */
+"HUf-i5-6pW.normalTitle" = "Import";
+
+/* Class = "UITabBarItem"; title = "User"; ObjectID = "Hdi-LF-23D"; */
+"Hdi-LF-23D.title" = "User";
+
+/* Class = "UILabel"; text = "Custom Report Text"; ObjectID = "I49-HR-U2l"; */
+"I49-HR-U2l.text" = "Custom Report Text";
+
+/* Class = "UIButton"; normalTitle = "Move"; ObjectID = "ILa-Y8-CfJ"; */
+"ILa-Y8-CfJ.normalTitle" = "Move";
+
+/* Class = "UILabel"; text = "InField"; ObjectID = "IrR-3p-JLU"; */
+"IrR-3p-JLU.text" = "InField";
+
+/* Class = "UILabel"; text = ""; ObjectID = "JVx-nq-JEB"; */
+"JVx-nq-JEB.text" = "";
+
+/* Class = "UILabel"; text = "[Comment]"; ObjectID = "MeU-bK-od5"; */
+"MeU-bK-od5.text" = "[Comment]";
+
+/* Class = "UITableViewController"; title = "Report Size"; ObjectID = "NEf-3w-5CV"; */
+"NEf-3w-5CV.title" = "Report Size";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PGg-8l-ffE"; */
+"PGg-8l-ffE.text" = "Label";
+
+/* Class = "UISegmentedControl"; Ptp-BK-cO2.segmentTitles[0] = "Blue"; ObjectID = "Ptp-BK-cO2"; */
+"Ptp-BK-cO2.segmentTitles[0]" = "Blue";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Q1E-bo-klK"; */
+"Q1E-bo-klK.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Qeq-sz-C8A"; */
+"Qeq-sz-C8A.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Edit Plan"; ObjectID = "S9l-wx-u2T"; */
+"S9l-wx-u2T.text" = "Edit Plan";
+
+/* Class = "UITableViewSection"; headerTitle = "Sections"; ObjectID = "SEy-mW-PYI"; */
+"SEy-mW-PYI.headerTitle" = "Sections";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "SbQ-uD-yDL"; */
+"SbQ-uD-yDL.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "Project Settings"; ObjectID = "Sh9-YB-7ml"; */
+"Sh9-YB-7ml.text" = "Project Settings";
+
+/* Class = "UILabel"; text = "11 x 17"; ObjectID = "SlA-II-NuW"; */
+"SlA-II-NuW.text" = "11 x 17";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Thu-yk-g1N"; */
+"Thu-yk-g1N.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Tag Name"; ObjectID = "UDZ-Dh-bUM"; */
+"UDZ-Dh-bUM.placeholder" = "Tag Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "UkP-91-UEU"; */
+"UkP-91-UEU.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Ul5-zi-dku"; */
+"Ul5-zi-dku.text" = "Title";
+
+/* Class = "UINavigationController"; title = "Project Navigation"; ObjectID = "VL0-42-5dX"; */
+"VL0-42-5dX.title" = "Project Navigation";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wlb-Ro-NxP"; */
+"Wlb-Ro-NxP.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "XxD-8c-pTR"; */
+"XxD-8c-pTR.title" = "Login";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "Y0W-BA-9a0"; */
+"Y0W-BA-9a0.text" = "Tag Title";
+
+/* Class = "UILabel"; text = "No areas have been defined"; ObjectID = "Y8k-B9-v8O"; */
+"Y8k-B9-v8O.text" = "No areas have been defined";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ZMv-vD-ef5"; */
+"ZMv-vD-ef5.normalTitle" = "";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "ZXW-3p-sAR"; */
+"ZXW-3p-sAR.title" = "Done";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ZiZ-Lx-U2K"; */
+"ZiZ-Lx-U2K.normalTitle" = "";
+
+/* Class = "UITableViewSection"; headerTitle = "Contains"; ObjectID = "aTu-5Y-wDg"; */
+"aTu-5Y-wDg.headerTitle" = "Contains";
+
+/* Class = "UITextField"; placeholder = "Comment"; ObjectID = "b0U-7g-x7m"; */
+"b0U-7g-x7m.placeholder" = "Comment";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bP9-cC-UE2"; */
+"bP9-cC-UE2.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "bSx-s8-uw6"; */
+"bSx-s8-uw6.text" = "Detail";
+
+/* Class = "UILabel"; text = "Lasy Sync"; ObjectID = "c3q-wK-dhT"; */
+"c3q-wK-dhT.text" = "Lasy Sync";
+
+/* Class = "UILabel"; text = "Portrait"; ObjectID = "c7i-hm-jPU"; */
+"c7i-hm-jPU.text" = "Portrait";
+
+/* Class = "UILabel"; text = "View Report"; ObjectID = "cCs-67-qCQ"; */
+"cCs-67-qCQ.text" = "View Report";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "cSr-aG-4Gs"; */
+"cSr-aG-4Gs.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Issues"; ObjectID = "dCB-tJ-85k"; */
+"dCB-tJ-85k.text" = "Issues";
+
+/* Class = "UILabel"; text = "Photos"; ObjectID = "dSz-Kv-jbT"; */
+"dSz-Kv-jbT.text" = "Photos";
+
+/* Class = "UINavigationItem"; title = "Configure Report"; ObjectID = "dY4-wr-Ymr"; */
+"dY4-wr-Ymr.title" = "Configure Report";
+
+/* Class = "UITableViewController"; title = "Report Settings"; ObjectID = "ddV-Ms-yQO"; */
+"ddV-Ms-yQO.title" = "Report Settings";
+
+/* Class = "UILabel"; text = "Cover Page"; ObjectID = "eD7-Q9-jJ8"; */
+"eD7-Q9-jJ8.text" = "Cover Page";
+
+/* Class = "UIButton"; normalTitle = "Project Settings"; ObjectID = "eRv-lv-3pX"; */
+"eRv-lv-3pX.normalTitle" = "Project Settings";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ehg-aT-v4C"; */
+"ehg-aT-v4C.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Open Camera After Adding Pills"; ObjectID = "f26-TD-XML"; */
+"f26-TD-XML.text" = "Open Camera After Adding Pills";
+
+/* Class = "UIViewController"; title = "Cover Page"; ObjectID = "f6v-TJ-UGc"; */
+"f6v-TJ-UGc.title" = "Cover Page";
+
+/* Class = "UILabel"; text = "Size"; ObjectID = "fba-eU-iEB"; */
+"fba-eU-iEB.text" = "Size";
+
+/* Class = "UITextField"; placeholder = "Type a comment"; ObjectID = "foj-46-4bd"; */
+"foj-46-4bd.placeholder" = "Type a comment";
+
+/* Class = "UILabel"; text = "Open Comments After Adding Pills"; ObjectID = "g93-Ow-rJD"; */
+"g93-Ow-rJD.text" = "Open Comments After Adding Pills";
+
+/* Class = "UILabel"; text = "List"; ObjectID = "gBT-SC-N5c"; */
+"gBT-SC-N5c.text" = "List";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "gnP-5I-Css"; */
+"gnP-5I-Css.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "hCb-qC-qzQ"; */
+"hCb-qC-qzQ.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Titleg"; ObjectID = "hMU-U2-YKA"; */
+"hMU-U2-YKA.text" = "Titleg";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hby-Ai-9Mx"; */
+"hby-Ai-9Mx.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Remove"; ObjectID = "hyU-kB-2lQ"; */
+"hyU-kB-2lQ.normalTitle" = "Remove";
+
+/* Class = "UILabel"; text = "Areas"; ObjectID = "i3G-bl-8CR"; */
+"i3G-bl-8CR.text" = "Areas";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iCU-te-NkJ"; */
+"iCU-te-NkJ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Pill Images"; ObjectID = "j7g-eS-vhu"; */
+"j7g-eS-vhu.text" = "Pill Images";
+
+/* Class = "UILabel"; text = "Plans"; ObjectID = "j86-BW-DJI"; */
+"j86-BW-DJI.text" = "Plans";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "jKv-fn-nKy"; */
+"jKv-fn-nKy.normalTitle" = "Add";
+
+/* Class = "UITextField"; placeholder = "Project Sub Title"; ObjectID = "kSH-jQ-Mlp"; */
+"kSH-jQ-Mlp.placeholder" = "Project Sub Title";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "kV9-f9-FgB"; */
+"kV9-f9-FgB.text" = "Text";
+
+/* Class = "UILabel"; text = "Lasy Sync"; ObjectID = "lkk-xV-xP6"; */
+"lkk-xV-xP6.text" = "Lasy Sync";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ln2-iq-h8h"; */
+"ln2-iq-h8h.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Sign Out"; ObjectID = "m3o-IP-3m8"; */
+"m3o-IP-3m8.normalTitle" = "Sign Out";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "n99-dy-Uh9"; */
+"n99-dy-Uh9.normalTitle" = "";
+
+/* Class = "UIButton"; selectedTitle = ""; ObjectID = "n99-dy-Uh9"; */
+"n99-dy-Uh9.selectedTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Building Image"; ObjectID = "nFa-m2-Wv5"; */
+"nFa-m2-Wv5.normalTitle" = "Building Image";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "o7D-S3-FNL"; */
+"o7D-S3-FNL.normalTitle" = "";
+
+/* Class = "UISearchBar"; placeholder = "Search Users"; ObjectID = "oIf-Jc-o35"; */
+"oIf-Jc-o35.placeholder" = "Search Users";
+
+/* Class = "UISearchBar"; oIf-Jc-o35.scopeButtonTitles[0] = "All Users"; ObjectID = "oIf-Jc-o35"; */
+"oIf-Jc-o35.scopeButtonTitles[0]" = "All Users";
+
+/* Class = "UISearchBar"; oIf-Jc-o35.scopeButtonTitles[1] = "Current Users"; ObjectID = "oIf-Jc-o35"; */
+"oIf-Jc-o35.scopeButtonTitles[1]" = "Current Users";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "ofi-5j-PHg"; */
+"ofi-5j-PHg.placeholder" = "Search";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "pUf-8u-azu"; */
+"pUf-8u-azu.normalTitle" = "Edit";
+
+/* Class = "UITabBarItem"; title = "Date"; ObjectID = "qDB-ER-Gcz"; */
+"qDB-ER-Gcz.title" = "Date";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "qtL-SZ-aYf"; */
+"qtL-SZ-aYf.normalTitle" = "Edit";
+
+/* Class = "UIBarButtonItem"; title = "Users"; ObjectID = "s6B-IP-GQG"; */
+"s6B-IP-GQG.title" = "Users";
+
+/* Class = "UILabel"; text = "Landscape"; ObjectID = "thr-H2-ThY"; */
+"thr-H2-ThY.text" = "Landscape";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "tiS-GM-lVt"; */
+"tiS-GM-lVt.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Export Project"; ObjectID = "tzS-Pp-zHh"; */
+"tzS-Pp-zHh.normalTitle" = "Export Project";
+
+/* Class = "UISegmentedControl"; uUX-bt-oqf.segmentTitles[0] = "Circle"; ObjectID = "uUX-bt-oqf"; */
+"uUX-bt-oqf.segmentTitles[0]" = "Circle";
+
+/* Class = "UILabel"; text = "Portrait"; ObjectID = "uWi-U4-m6e"; */
+"uWi-U4-m6e.text" = "Portrait";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "uxT-uT-ugC"; */
+"uxT-uT-ugC.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Pill Size"; ObjectID = "vAC-8u-P8k"; */
+"vAC-8u-P8k.text" = "Pill Size";
+
+/* Class = "UILabel"; text = "Pill Comments"; ObjectID = "vgE-Tq-jTo"; */
+"vgE-Tq-jTo.text" = "Pill Comments";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "y4W-Kh-VjB"; */
+"y4W-Kh-VjB.text" = "Date";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "yay-dO-Db6"; */
+"yay-dO-Db6.normalTitle" = "Done";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "ydI-Kw-ZJL"; */
+"ydI-Kw-ZJL.placeholder" = "Search";
+
+/* Class = "UITextField"; placeholder = "Building Name"; ObjectID = "yeB-Ul-xvZ"; */
+"yeB-Ul-xvZ.placeholder" = "Building Name";

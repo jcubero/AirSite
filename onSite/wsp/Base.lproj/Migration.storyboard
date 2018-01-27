@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="t4g-Ya-ql8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
+    </dependencies>
+    <scenes>
+        <!--Migration View Controller-->
+        <scene sceneID="4DG-uQ-8Y9">
+            <objects>
+                <viewController id="t4g-Ya-ql8" customClass="MigrationViewController" customModule="wsp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rfc-rT-Va2"/>
+                        <viewControllerLayoutGuide type="bottom" id="hSZ-J7-sSI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9gt-W3-E4P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Migrating Database" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuM-n7-lvp">
+                                <rect key="frame" x="225.5" y="136" width="149.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1iU-7A-afB">
+                                <rect key="frame" x="150.5" y="211.5" width="300" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="431-Gh-ffg"/>
+                                    <constraint firstAttribute="width" constant="300" id="tSy-ll-7Pd"/>
+                                </constraints>
+                            </progressView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="iet-Uo-9wS">
+                                <rect key="frame" x="243" y="67" width="114" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="HkA-Hm-8Lx"/>
+                                    <constraint firstAttribute="width" constant="114" id="V8x-En-nak"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a4C-l0-EWp">
+                                <rect key="frame" x="225" y="271" width="150" height="58"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="T0O-lJ-CY3">
+                                        <rect key="frame" x="8" y="19" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="3Wb-Ea-je4"/>
+                                            <constraint firstAttribute="height" constant="20" id="Shm-pg-YRJ"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Wait" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-35-aM4">
+                                        <rect key="frame" x="36" y="18.5" width="89" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="1VB-Ex-8dc"/>
+                                    <constraint firstItem="T0O-lJ-CY3" firstAttribute="centerY" secondItem="a4C-l0-EWp" secondAttribute="centerY" id="M0a-f8-aiC"/>
+                                    <constraint firstItem="T0O-lJ-CY3" firstAttribute="leading" secondItem="a4C-l0-EWp" secondAttribute="leading" constant="8" id="Shy-TV-JcG"/>
+                                    <constraint firstAttribute="height" constant="58" id="fdt-lJ-A2C"/>
+                                    <constraint firstItem="SfD-35-aM4" firstAttribute="centerY" secondItem="a4C-l0-EWp" secondAttribute="centerY" id="gKF-l6-c2a"/>
+                                    <constraint firstItem="SfD-35-aM4" firstAttribute="leading" secondItem="T0O-lJ-CY3" secondAttribute="trailing" constant="8" id="mSP-9y-X7a"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LnJ-YS-7mD">
+                                <rect key="frame" x="150.5" y="217" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="8yV-mm-2dJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LnJ-YS-7mD" firstAttribute="top" secondItem="1iU-7A-afB" secondAttribute="bottom" constant="3.5" id="83l-hw-NP9"/>
+                            <constraint firstItem="WuM-n7-lvp" firstAttribute="top" secondItem="rfc-rT-Va2" secondAttribute="bottom" constant="116" id="Aq6-GE-IKQ"/>
+                            <constraint firstItem="a4C-l0-EWp" firstAttribute="centerX" secondItem="9gt-W3-E4P" secondAttribute="centerX" id="EPD-ie-Mmo"/>
+                            <constraint firstItem="WuM-n7-lvp" firstAttribute="centerX" secondItem="9gt-W3-E4P" secondAttribute="centerX" id="Mok-wL-Y1X"/>
+                            <constraint firstItem="LnJ-YS-7mD" firstAttribute="leading" secondItem="1iU-7A-afB" secondAttribute="leading" id="Qkv-Ti-7q8"/>
+                            <constraint firstItem="1iU-7A-afB" firstAttribute="centerX" secondItem="9gt-W3-E4P" secondAttribute="centerX" id="RcZ-Yv-D3T"/>
+                            <constraint firstItem="WuM-n7-lvp" firstAttribute="top" secondItem="iet-Uo-9wS" secondAttribute="bottom" constant="8" id="Stz-HY-Fgd"/>
+                            <constraint firstItem="a4C-l0-EWp" firstAttribute="top" secondItem="1iU-7A-afB" secondAttribute="bottom" constant="57.5" id="fRq-hZ-gWv"/>
+                            <constraint firstItem="LnJ-YS-7mD" firstAttribute="width" secondItem="1iU-7A-afB" secondAttribute="width" id="kVN-JX-ei7"/>
+                            <constraint firstItem="1iU-7A-afB" firstAttribute="top" secondItem="WuM-n7-lvp" secondAttribute="bottom" constant="55" id="kkP-yl-EZv"/>
+                            <constraint firstItem="iet-Uo-9wS" firstAttribute="centerX" secondItem="9gt-W3-E4P" secondAttribute="centerX" id="o1L-sj-81v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pleaseWaitView" destination="a4C-l0-EWp" id="J0h-p2-L4H"/>
+                        <outlet property="progressInfo" destination="LnJ-YS-7mD" id="beX-RD-NRg"/>
+                        <outlet property="progressView" destination="1iU-7A-afB" id="9sZ-gj-oG3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="naj-xL-KUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="664" y="424"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="151" height="47"/>
+    </resources>
+</document>

@@ -1,0 +1,375 @@
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "5FK-fY-N6h"; */
+"5FK-fY-N6h.title" = "Annuler";
+
+/* Class = "UILabel"; text = "Level Type"; ObjectID = "5b6-vZ-4u4"; */
+"5b6-vZ-4u4.text" = "Type de section";
+
+/* Class = "UISegmentedControl"; 6UU-As-UPj.segmentTitles[0] = "11 x 17"; ObjectID = "6UU-As-UPj"; */
+"6UU-As-UPj.segmentTitles[0]" = "11 x 17";
+
+/* Class = "UISegmentedControl"; 6UU-As-UPj.segmentTitles[1] = "8½ x 11"; ObjectID = "6UU-As-UPj"; */
+"6UU-As-UPj.segmentTitles[1]" = "8½ x 11";
+
+/* Class = "UITabBarItem"; title = "Users"; ObjectID = "7di-ha-bS1"; */
+"7di-ha-bS1.title" = "Multi-usager";
+
+/* Class = "UITextField"; placeholder = "Client project title"; ObjectID = "7nM-UN-ueo"; */
+"7nM-UN-ueo.placeholder" = "Titre du projet (client)";
+
+/* Class = "UISegmentedControl"; 7oM-n3-J2J.segmentTitles[0] = "Regular Tag"; ObjectID = "7oM-n3-J2J"; */
+"7oM-n3-J2J.segmentTitles[0]" = "Champ fixe";
+
+/* Class = "UISegmentedControl"; 7oM-n3-J2J.segmentTitles[1] = "Text Input Tag"; ObjectID = "7oM-n3-J2J"; */
+"7oM-n3-J2J.segmentTitles[1]" = "Champ de texte ouvert";
+
+/* Class = "UISegmentedControl"; 7oM-n3-J2J.segmentTitles[2] = "Numeric Input Tag"; ObjectID = "7oM-n3-J2J"; */
+"7oM-n3-J2J.segmentTitles[2]" = "Champ numérique ouvert";
+
+/* Class = "UILabel"; text = "Plan Page Size"; ObjectID = "8Fq-6i-FVX"; */
+"8Fq-6i-FVX.text" = "Taille section plan";
+
+/* Class = "UILabel"; text = "Auto Camera"; ObjectID = "8wX-JQ-NFL"; */
+"8wX-JQ-NFL.text" = "Photo automatique";
+
+/* Class = "UILabel"; text = ""; ObjectID = "525-DG-Nie"; */
+"525-DG-Nie.text" = "";
+
+/* Class = "UISegmentedControl"; AFq-1I-rQh.segmentTitles[0] = "Portrait"; ObjectID = "AFq-1I-rQh"; */
+"AFq-1I-rQh.segmentTitles[0]" = "Portrait";
+
+/* Class = "UISegmentedControl"; AFq-1I-rQh.segmentTitles[1] = "Landscape"; ObjectID = "AFq-1I-rQh"; */
+"AFq-1I-rQh.segmentTitles[1]" = "Paysage";
+
+/* Class = "UIButton"; normalTitle = "Alternate Logo"; ObjectID = "Aee-6C-TKI"; */
+"Aee-6C-TKI.normalTitle" = "Remplacer logo rapport";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "AmT-i4-4jD"; */
+"AmT-i4-4jD.normalTitle" = "Annuler";
+
+/* Class = "UILabel"; text = ""; ObjectID = "BT9-jQ-OCl"; */
+"BT9-jQ-OCl.text" = "";
+
+/* Class = "UITextField"; placeholder = "Area title"; ObjectID = "BaS-hI-Bqm"; */
+"BaS-hI-Bqm.placeholder" = "Titre du plan";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Cje-1g-Zh9"; */
+"Cje-1g-Zh9.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label Text"; ObjectID = "DOH-OA-Ifs"; */
+"DOH-OA-Ifs.text" = "Texte";
+
+/* Class = "UIButton"; normalTitle = "Project Image"; ObjectID = "Efy-8n-PBY"; */
+"Efy-8n-PBY.normalTitle" = "Photo page couverture";
+
+/* Class = "UILabel"; text = "Tag Type"; ObjectID = "EoM-7U-VAG"; */
+"EoM-7U-VAG.text" = "Type d'élément";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EsX-ha-sh0"; */
+"EsX-ha-sh0.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Name(s)"; ObjectID = "Exg-Hh-j8q"; */
+"Exg-Hh-j8q.placeholder" = "Nom(s)";
+
+/* Class = "UILabel"; text = "The view this level depends on has no tags"; ObjectID = "F7U-gg-Va1"; */
+"F7U-gg-Va1.text" = "L'élément de cette section dépend d'une section antérieur sans élément";
+
+/* Class = "UITabBarItem"; title = "General"; ObjectID = "GGc-Bs-JEc"; */
+"GGc-Bs-JEc.title" = "Général";
+
+/* Class = "UITextField"; placeholder = "Company Fax No."; ObjectID = "HEi-le-ScV"; */
+"HEi-le-ScV.placeholder" = "Fax";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HtF-Du-fZD"; */
+"HtF-Du-fZD.text" = "Label";
+
+/* Class = "UILabel"; text = "Number of Photos per Page (Landscape)"; ObjectID = "I0N-iA-vmH"; */
+"I0N-iA-vmH.text" = "Photos par page (paysage)";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "IAf-MC-RG1"; */
+"IAf-MC-RG1.text" = "Élément descriptif";
+
+/* Class = "UISegmentedControl"; IFb-qg-O8J.segmentTitles[0] = "Regular Level"; ObjectID = "IFb-qg-O8J"; */
+"IFb-qg-O8J.segmentTitles[0]" = "Section constante";
+
+/* Class = "UISegmentedControl"; IFb-qg-O8J.segmentTitles[1] = "Relative Level"; ObjectID = "IFb-qg-O8J"; */
+"IFb-qg-O8J.segmentTitles[1]" = "Section variable";
+
+/* Class = "UITextField"; placeholder = "Field start date"; ObjectID = "IuS-Fg-Tbd"; */
+"IuS-Fg-Tbd.placeholder" = "Date (rapport)";
+
+/* Class = "UILabel"; text = "No shape selected. Tap the switch to assign a shape to this tag."; ObjectID = "JaU-1g-vuy"; */
+"JaU-1g-vuy.text" = "Ajouter une forme de pastille à cette section";
+
+/* Class = "UILabel"; text = "Auto Comment"; ObjectID = "Jc9-X0-6K4"; */
+"Jc9-X0-6K4.text" = "Commentaire automatique";
+
+/* Class = "UISegmentedControl"; Jio-31-Y7q.segmentTitles[0] = "Low"; ObjectID = "Jio-31-Y7q"; */
+"Jio-31-Y7q.segmentTitles[0]" = "Réduite";
+
+/* Class = "UISegmentedControl"; Jio-31-Y7q.segmentTitles[1] = "Medium"; ObjectID = "Jio-31-Y7q"; */
+"Jio-31-Y7q.segmentTitles[1]" = "Moyenne";
+
+/* Class = "UISegmentedControl"; Jio-31-Y7q.segmentTitles[2] = "High"; ObjectID = "Jio-31-Y7q"; */
+"Jio-31-Y7q.segmentTitles[2]" = "Élevé";
+
+/* Class = "UILabel"; text = "Photo Page Orientation"; ObjectID = "KBt-4J-KBt"; */
+"KBt-4J-KBt.text" = "Orientation section photo";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "L8E-J4-P8L"; */
+"L8E-J4-P8L.title" = "Annuler";
+
+/* Class = "UIViewController"; title = "Edit Areas"; ObjectID = "Lxv-0z-gwo"; */
+"Lxv-0z-gwo.title" = "Modifier plan";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MQb-wd-iFp"; */
+"MQb-wd-iFp.normalTitle" = "Bouton";
+
+/* Class = "UISegmentedControl"; OYK-7h-YWl.segmentTitles[0] = "2"; ObjectID = "OYK-7h-YWl"; */
+"OYK-7h-YWl.segmentTitles[0]" = "2";
+
+/* Class = "UISegmentedControl"; OYK-7h-YWl.segmentTitles[1] = "6"; ObjectID = "OYK-7h-YWl"; */
+"OYK-7h-YWl.segmentTitles[1]" = "6";
+
+/* Class = "UISegmentedControl"; OYK-7h-YWl.segmentTitles[2] = "9"; ObjectID = "OYK-7h-YWl"; */
+"OYK-7h-YWl.segmentTitles[2]" = "9";
+
+/* Class = "UISegmentedControl"; OYK-7h-YWl.segmentTitles[3] = "12"; ObjectID = "OYK-7h-YWl"; */
+"OYK-7h-YWl.segmentTitles[3]" = "12";
+
+/* Class = "UILabel"; text = "Tag Color"; ObjectID = "OgC-tS-7Pp"; */
+"OgC-tS-7Pp.text" = "Couleur pastille";
+
+/* Class = "UITextField"; placeholder = "Company"; ObjectID = "Ohh-J0-Lxl"; */
+"Ohh-J0-Lxl.placeholder" = "Compagnie";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "Pem-Ra-40b"; */
+"Pem-Ra-40b.title" = "OK";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "PwK-Ph-rsz"; */
+"PwK-Ph-rsz.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QEK-I1-73T"; */
+"QEK-I1-73T.normalTitle" = "Bouton";
+
+/* Class = "UITextField"; placeholder = "Building/Location address"; ObjectID = "QHV-IL-eQp"; */
+"QHV-IL-eQp.placeholder" = "Adresse du site";
+
+/* Class = "UITableViewSection"; headerTitle = "Project Settings"; ObjectID = "RGB-lp-MXG"; */
+"RGB-lp-MXG.headerTitle" = "Paramètres du projet";
+
+/* Class = "UISegmentedControl"; RSR-Qx-nBg.segmentTitles[0] = "Portrait"; ObjectID = "RSR-Qx-nBg"; */
+"RSR-Qx-nBg.segmentTitles[0]" = "Portrait";
+
+/* Class = "UISegmentedControl"; RSR-Qx-nBg.segmentTitles[1] = "Landscape"; ObjectID = "RSR-Qx-nBg"; */
+"RSR-Qx-nBg.segmentTitles[1]" = "Paysage";
+
+/* Class = "UILabel"; text = "Tag Shape"; ObjectID = "Rg2-Lh-5EJ"; */
+"Rg2-Lh-5EJ.text" = "Forme de la pastille";
+
+/* Class = "UILabel"; text = "Edit Plan"; ObjectID = "S9l-wx-u2T"; */
+"S9l-wx-u2T.text" = "Modifier plan";
+
+/* Class = "UITextField"; placeholder = "Company Telephone No."; ObjectID = "Sys-EI-8cf"; */
+"Sys-EI-8cf.placeholder" = "Téléphone";
+
+/* Class = "UILabel"; text = "Tap the switch the activate colors for this level"; ObjectID = "TPS-Bb-2r0"; */
+"TPS-Bb-2r0.text" = "Ajouter une couleur de pastille à cette section";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "TRf-CK-710"; */
+"TRf-CK-710.text" = "Titre de l'élément";
+
+/* Class = "UILabel"; text = "Plan Page Orientation"; ObjectID = "Tad-Xu-FeL"; */
+"Tad-Xu-FeL.text" = "Orientation section plan";
+
+/* Class = "UILabel"; text = "Tag Type"; ObjectID = "Tcf-Qz-YK4"; */
+"Tcf-Qz-YK4.text" = "Type d'élément";
+
+/* Class = "UILabel"; text = "This level does not define shapes."; ObjectID = "Tje-ee-cHB"; */
+"Tje-ee-cHB.text" = "Ajouter une forme de pastille à cette section";
+
+/* Class = "UILabel"; text = "Tag Shape"; ObjectID = "UGZ-W1-OLp"; */
+"UGZ-W1-OLp.text" = "Forme de pastille";
+
+/* Class = "UITextField"; placeholder = "Address 1"; ObjectID = "UYs-He-Dkh"; */
+"UYs-He-Dkh.placeholder" = "Adresse 1";
+
+/* Class = "UITextField"; placeholder = "Project Number"; ObjectID = "UZa-Y8-epQ"; */
+"UZa-Y8-epQ.placeholder" = "Numéro de projet";
+
+/* Class = "UIViewController"; title = "Edit Tag"; ObjectID = "Ur5-MG-E0H"; */
+"Ur5-MG-E0H.title" = "Modifier";
+
+/* Class = "UILabel"; text = "Embed Photo Metadata in Saved Photos"; ObjectID = "V3Z-QD-hx9"; */
+"V3Z-QD-hx9.text" = "Inclure description InField dans les photos";
+
+/* Class = "UITextField"; placeholder = "Document Type"; ObjectID = "VGE-p4-Vif"; */
+"VGE-p4-Vif.placeholder" = "Type de document";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VeU-eD-vIz"; */
+"VeU-eD-vIz.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "Category selection will skip when something happens"; ObjectID = "W3e-TF-UdA"; */
+"W3e-TF-UdA.text" = "Saut de section lorsque sans éléments";
+
+/* Class = "UILabel"; text = "No color selected. Tap the switch to assign a color to this tag."; ObjectID = "WOY-2M-MGO"; */
+"WOY-2M-MGO.text" = "Ajouter une couleur de pastille à cette section";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "XWx-wg-sBR"; */
+"XWx-wg-sBR.text" = "Élément descriptif";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "YGj-Sd-3vt"; */
+"YGj-Sd-3vt.text" = "Élément descriptif";
+
+/* Class = "UIViewController"; title = "Edit Tag"; ObjectID = "Z2v-OT-hAt"; */
+"Z2v-OT-hAt.title" = "Modifier";
+
+/* Class = "UIButton"; normalTitle = "Delete Level"; ObjectID = "ZYy-ub-hgY"; */
+"ZYy-ub-hgY.normalTitle" = "Supprimer section";
+
+/* Class = "UILabel"; text = "Please select a parent on the right"; ObjectID = "Zlv-i2-ZTs"; */
+"Zlv-i2-ZTs.text" = "Sélectionner la section correspondante à droite";
+
+/* Class = "UITextField"; placeholder = "Building/Location name"; ObjectID = "aEQ-AS-VvE"; */
+"aEQ-AS-VvE.placeholder" = "Nom du site";
+
+/* Class = "UITextField"; placeholder = "Tag Title"; ObjectID = "axh-X3-fEa"; */
+"axh-X3-fEa.placeholder" = "Élément descriptif";
+
+/* Class = "UINavigationItem"; title = "Edit Areas"; ObjectID = "b5a-AP-7Va"; */
+"b5a-AP-7Va.title" = "Modifier plan";
+
+/* Class = "UITextField"; placeholder = "Address 2"; ObjectID = "bDb-0H-Fn6"; */
+"bDb-0H-Fn6.placeholder" = "Adresse 2";
+
+/* Class = "UILabel"; text = "This level does not define colors."; ObjectID = "bwg-dU-k3G"; */
+"bwg-dU-k3G.text" = "Cette section de définie pas une couleur";
+
+/* Class = "UITextField"; placeholder = "Our mandat title"; ObjectID = "c18-k4-2eA"; */
+"c18-k4-2eA.placeholder" = "Titre du projet";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cET-8O-8zs"; */
+"cET-8O-8zs.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = ""; ObjectID = "czu-j9-bcA"; */
+"czu-j9-bcA.text" = "";
+
+/* Class = "UILabel"; text = "Number of Photos per Page (Portrait)"; ObjectID = "dtP-33-Pha"; */
+"dtP-33-Pha.text" = "Photos par page (Portrait)";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eBv-69-Yus"; */
+"eBv-69-Yus.text" = "Label";
+
+/* Class = "UILabel"; text = "Level Color"; ObjectID = "eXU-sf-Yzo"; */
+"eXU-sf-Yzo.text" = "Section couleur";
+
+/* Class = "UILabel"; text = "Pill Size"; ObjectID = "efa-aD-61S"; */
+"efa-aD-61S.text" = "Grosseur pastille";
+
+/* Class = "UILabel"; text = "Tap the switch to activate shapes for this level"; ObjectID = "gBB-I4-Smf"; */
+"gBB-I4-Smf.text" = "Ajouter une forme de pastille à cette section";
+
+/* Class = "UITextField"; placeholder = "Company Email"; ObjectID = "hGo-9d-0lF"; */
+"hGo-9d-0lF.placeholder" = "Courriel";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "hL1-qm-T0l"; */
+"hL1-qm-T0l.title" = "Annulé";
+
+/* Class = "UITextField"; placeholder = "Level Title"; ObjectID = "hSK-rd-N9R"; */
+"hSK-rd-N9R.placeholder" = "Titre section";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hUA-0f-GDT"; */
+"hUA-0f-GDT.normalTitle" = "Bouton";
+
+/* Class = "UISegmentedControl"; haL-T8-4ID.segmentTitles[0] = "Regular Tag"; ObjectID = "haL-T8-4ID"; */
+"haL-T8-4ID.segmentTitles[0]" = "Champ fixe";
+
+/* Class = "UISegmentedControl"; haL-T8-4ID.segmentTitles[1] = "Text Input Tag"; ObjectID = "haL-T8-4ID"; */
+"haL-T8-4ID.segmentTitles[1]" = "Champ texte ouvert";
+
+/* Class = "UISegmentedControl"; haL-T8-4ID.segmentTitles[2] = "Numeric Input Tag"; ObjectID = "haL-T8-4ID"; */
+"haL-T8-4ID.segmentTitles[2]" = "Champ numérique ouvert";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "i17-TH-Znq"; */
+"i17-TH-Znq.title" = "OK";
+
+/* Class = "UISegmentedControl"; nAb-dx-HH8.segmentTitles[0] = "1"; ObjectID = "nAb-dx-HH8"; */
+"nAb-dx-HH8.segmentTitles[0]" = "1";
+
+/* Class = "UISegmentedControl"; nAb-dx-HH8.segmentTitles[1] = "4"; ObjectID = "nAb-dx-HH8"; */
+"nAb-dx-HH8.segmentTitles[1]" = "4";
+
+/* Class = "UISegmentedControl"; nAb-dx-HH8.segmentTitles[2] = "9"; ObjectID = "nAb-dx-HH8"; */
+"nAb-dx-HH8.segmentTitles[2]" = "9";
+
+/* Class = "UISegmentedControl"; nAb-dx-HH8.segmentTitles[3] = "12"; ObjectID = "nAb-dx-HH8"; */
+"nAb-dx-HH8.segmentTitles[3]" = "12";
+
+/* Class = "UILabel"; text = "A relative level allows you to define different tags depending on which item the user has selected in the level upon which this one depends."; ObjectID = "onS-9k-UJv"; */
+"onS-9k-UJv.text" = "Une section variable permet de définir une série d'éléments associé spécifiquement à un élément  sélectionné dans une section antérieur. La section est donc variable selon un choix effectué dans une section antérieur.";
+
+/* Class = "UILabel"; text = "Tag Color"; ObjectID = "ooC-lM-w2Z"; */
+"ooC-lM-w2Z.text" = "Couleur de la pastille";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qUw-C2-5c5"; */
+"qUw-C2-5c5.normalTitle" = "Bouton";
+
+/* Class = "UIViewController"; title = "Edit Tag"; ObjectID = "qcU-AY-cm7"; */
+"qcU-AY-cm7.title" = "Modifier";
+
+/* Class = "UITextField"; placeholder = "Client name"; ObjectID = "qth-3q-Y3Q"; */
+"qth-3q-Y3Q.placeholder" = "Nom client";
+
+/* Class = "UILabel"; text = "Level Title"; ObjectID = "rlT-fx-SMx"; */
+"rlT-fx-SMx.text" = "Titre section";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "sHD-oX-1pw"; */
+"sHD-oX-1pw.text" = "Nom d'utilisateur";
+
+/* Class = "UITableViewSection"; headerTitle = "User"; ObjectID = "sYC-cF-ogd"; */
+"sYC-cF-ogd.headerTitle" = "Utilisateur";
+
+/* Class = "UITableViewSection"; headerTitle = "Report Settings"; ObjectID = "shQ-wK-p11"; */
+"shQ-wK-p11.headerTitle" = "Paramètres du rapport";
+
+/* Class = "UITabBarItem"; title = "Area"; ObjectID = "tBX-Ba-nYo"; */
+"tBX-Ba-nYo.title" = "Plan";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "tiS-GM-lVt"; */
+"tiS-GM-lVt.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Tag Title"; ObjectID = "ulF-oy-sDj"; */
+"ulF-oy-sDj.text" = "Titre";
+
+/* Class = "UILabel"; text = "This is a regular level."; ObjectID = "upA-9X-cow"; */
+"upA-9X-cow.text" = "Section constante";
+
+/* Class = "UILabel"; text = "Photo Quality"; ObjectID = "v1C-n7-mDd"; */
+"v1C-n7-mDd.text" = "Résolution photo";
+
+/* Class = "UITableViewSection"; headerTitle = "Project"; ObjectID = "wBh-da-eqf"; */
+"wBh-da-eqf.headerTitle" = "Projet";
+
+/* Class = "UILabel"; text = "Save Photos To iPad"; ObjectID = "wHb-Cm-hEp"; */
+"wHb-Cm-hEp.text" = "Copier photos dans iPad";
+
+/* Class = "UITabBarItem"; title = "Library"; ObjectID = "wHb-Il-uF5"; */
+"wHb-Il-uF5.title" = "Bibliothèque";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "x9e-Rt-MaW"; */
+"x9e-Rt-MaW.title" = "Root View Controller";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y9K-hB-iwP"; */
+"y9K-hB-iwP.normalTitle" = "Bouton";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "yay-dO-Db6"; */
+"yay-dO-Db6.normalTitle" = "OK";
+
+/* Class = "UITextField"; placeholder = "Tag Title"; ObjectID = "yip-gC-bHv"; */
+"yip-gC-bHv.placeholder" = "Description d'élément";
+
+/* Class = "UINavigationController"; title = "Edit Tag Navigation"; ObjectID = "z8X-G1-n9B"; */
+"z8X-G1-n9B.title" = "Modifier navigation";
+
+/* Class = "UILabel"; text = "Level Shape"; ObjectID = "zWD-v5-a4d"; */
+"zWD-v5-a4d.text" = "Section avec forme";
+

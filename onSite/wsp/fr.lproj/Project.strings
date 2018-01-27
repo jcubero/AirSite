@@ -1,0 +1,69 @@
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "2iH-98-8g6"; */
+"2iH-98-8g6.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8cZ-Mf-Maa"; */
+"8cZ-Mf-Maa.normalTitle" = "";
+
+/* Class = "UILabel"; text = "[User]"; ObjectID = "8dp-Ca-iXf"; */
+"8dp-Ca-iXf.text" = "[Utilisateur]";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8dz-R5-P7q"; */
+"8dz-R5-P7q.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "8y8-5i-NLd"; */
+"8y8-5i-NLd.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "DQJ-aO-qG7"; */
+"DQJ-aO-qG7.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GWv-Rf-cLD"; */
+"GWv-Rf-cLD.text" = "Label";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "JId-VP-Tmg"; */
+"JId-VP-Tmg.text" = "Date";
+
+/* Class = "UILabel"; text = "8888"; ObjectID = "Rqe-mt-dIR"; */
+"Rqe-mt-dIR.text" = "8888";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Sms-La-aBr"; */
+"Sms-La-aBr.text" = "Label";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "Vn9-0x-OCa"; */
+"Vn9-0x-OCa.text" = "Texte";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ehg-aT-v4C"; */
+"ehg-aT-v4C.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Type a comment"; ObjectID = "foj-46-4bd"; */
+"foj-46-4bd.placeholder" = "Entrer un commentaire";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "hae-zw-7OF"; */
+"hae-zw-7OF.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Text"; ObjectID = "kV9-f9-FgB"; */
+"kV9-f9-FgB.text" = "Texte";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ln2-iq-h8h"; */
+"ln2-iq-h8h.normalTitle" = "Bouton";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "mq3-mW-qIt"; */
+"mq3-mW-qIt.normalTitle" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "nBf-df-M2R"; */
+"nBf-df-M2R.text" = "";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "qgB-dn-GWm"; */
+"qgB-dn-GWm.text" = "Sous-titre";
+
+/* Class = "UILabel"; text = "[User]"; ObjectID = "tDY-Rh-gPU"; */
+"tDY-Rh-gPU.text" = "[Utilisateur]";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "uxT-uT-ugC"; */
+"uxT-uT-ugC.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "wyc-sv-z0J"; */
+"wyc-sv-z0J.text" = "Titre";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "y4W-Kh-VjB"; */
+"y4W-Kh-VjB.text" = "Date";
+

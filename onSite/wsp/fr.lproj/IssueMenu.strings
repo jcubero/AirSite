@@ -1,0 +1,36 @@
+/* Class = "UILabel"; text = "Delete Arrow"; ObjectID = "3O3-pr-8eU"; */
+"3O3-pr-8eU.text" = "Supprimer la flèche";
+
+/* Class = "UILabel"; text = "Move Arrow"; ObjectID = "6S0-WL-xfY"; */
+"6S0-WL-xfY.text" = "Déplacer la flèche";
+
+/* Class = "UILabel"; text = "Renumber"; ObjectID = "DD6-lg-VhG"; */
+"DD6-lg-VhG.text" = "Renuméroter";
+
+/* Class = "UILabel"; text = "Move Issue"; ObjectID = "Ecb-tL-4LT"; */
+"Ecb-tL-4LT.text" = "Déplacer la pastille";
+
+/* Class = "UILabel"; text = ""; ObjectID = "FDr-hZ-Wc3"; */
+"FDr-hZ-Wc3.text" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "LbA-Gz-XDS"; */
+"LbA-Gz-XDS.text" = "";
+
+/* Class = "UILabel"; text = "Copy Issue"; ObjectID = "TSz-Vg-kc4"; */
+"TSz-Vg-kc4.text" = "Copie la pastille";
+
+/* Class = "UILabel"; text = ""; ObjectID = "WMw-sw-YI6"; */
+"WMw-sw-YI6.text" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "bQn-US-WVW"; */
+"bQn-US-WVW.text" = "";
+
+/* Class = "UILabel"; text = "Delete Issue"; ObjectID = "gDG-sd-pIT"; */
+"gDG-sd-pIT.text" = "Supprimer la pastille";
+
+/* Class = "UILabel"; text = ""; ObjectID = "l2R-lf-akB"; */
+"l2R-lf-akB.text" = "";
+
+/* Class = "UILabel"; text = ""; ObjectID = "uaE-oy-vik"; */
+"uaE-oy-vik.text" = "";
+

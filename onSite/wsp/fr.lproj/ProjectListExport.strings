@@ -1,0 +1,48 @@
+/* Class = "UILabel"; text = "ZIP"; ObjectID = "2IM-Eu-a98"; */
+"2IM-Eu-a98.text" = "ZIP";
+
+/* Class = "UILabel"; text = "Settings + Data + Photos + Plans + Report\n"; ObjectID = "6jx-70-TRS"; */
+"6jx-70-TRS.text" = "Paramètres + Données + Photo+ Plans + Rapport";
+
+/* Class = "UILabel"; text = "ZIP"; ObjectID = "09B-ft-0o4"; */
+"09B-ft-0o4.text" = "ZIP";
+
+/* Class = "UITableViewController"; title = "Export Options"; ObjectID = "TeV-Fv-wAr"; */
+"TeV-Fv-wAr.title" = "Options d'exportation";
+
+/* Class = "UILabel"; text = "Settings + Plans"; ObjectID = "XZT-ev-NEi"; */
+"XZT-ev-NEi.text" = "Paramètres + Plans";
+
+/* Class = "UINavigationItem"; title = "Export Options"; ObjectID = "Yba-MG-yib"; */
+"Yba-MG-yib.title" = "Options d'exportation";
+
+/* Class = "UILabel"; text = "Infield Project"; ObjectID = "aWD-JU-nOt"; */
+"aWD-JU-nOt.text" = "Fichier Infield";
+
+/* Class = "UILabel"; text = "Settings + Data + Report"; ObjectID = "hHZ-d7-l67"; */
+"hHZ-d7-l67.text" = "Paramètres + Données + Rapport";
+
+/* Class = "UILabel"; text = "ZIP"; ObjectID = "hgB-ZD-tmT"; */
+"hgB-ZD-tmT.text" = "ZIP";
+
+/* Class = "UILabel"; text = "Settings + Data"; ObjectID = "kpg-kL-c6n"; */
+"kpg-kL-c6n.text" = "Paramètres + Données";
+
+/* Class = "UILabel"; text = "Report"; ObjectID = "mWT-Zr-zGK"; */
+"mWT-Zr-zGK.text" = "Rapport";
+
+/* Class = "UILabel"; text = "XLSX"; ObjectID = "rfe-zO-u5I"; */
+"rfe-zO-u5I.text" = "XLSX";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "rxx-zU-LY8"; */
+"rxx-zU-LY8.text" = "Paramètres";
+
+/* Class = "UILabel"; text = "INFIELD"; ObjectID = "yfA-lN-ztp"; */
+"yfA-lN-ztp.text" = "INFIELD";
+
+/* Class = "UILabel"; text = "PDF"; ObjectID = "yiS-iO-Doa"; */
+"yiS-iO-Doa.text" = "PDF";
+
+/* Class = "UILabel"; text = "XLSX"; ObjectID = "yu7-cM-LUB"; */
+"yu7-cM-LUB.text" = "XLSX";
+

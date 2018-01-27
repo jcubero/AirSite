@@ -1,0 +1,299 @@
+/* format */
+"%i of %i" = "%1$i de %2$i";
+
+/* A network error has occured. */
+"A network error has occured." = "Erreur réseau";
+
+/* Add */
+"Add" = "Ajouter";
+
+/* Add arrow issue menu item */
+"Add Arrow" = "Ajouter flèche";
+
+/* Add Colors To Level */
+"Add Colors To Level" = "Ajouter des couleurs";
+
+/* Add Shapes To Level */
+"Add Shapes To Level" = "Ajouter des formes";
+
+/* An error occured exporting the zip file */
+"An error occured exporting the zip file" = "Erreur lors de l'exportation";
+
+/* An error occured importing tags */
+"An error occured importing tags" = "Erreur lors de l'importation";
+
+/* Annotate */
+"Annotate" = "Annotation";
+
+/* Are you sure? */
+"Are you sure?" = "Confirmer";
+
+/* Areas */
+"Areas" = "Plans";
+
+/* Cancel */
+"Cancel" = "Annuler";
+
+/* Continue */
+"Continue" = "Ok";
+
+/* Copy */
+"Copy" = "Copier";
+
+/* Could not connect to server */
+"Could not connect to server" = "Échec de connexion serveur";
+
+/* Could not parse tag file */
+"Could not parse tag file" = "Échec d'analyse fichier";
+
+/* Could not read tags in selected spreadsheet */
+"Could not read tags in selected spreadsheet" = "Erreur bibliothèque excel";
+
+/* Couldn't read excel file. */
+"Couldn't read excel file." = "Échec de lecture fichier Excel";
+
+/* Crop */
+"Crop" = "Recadrer";
+
+/* Data Collecting */
+"Data Collecting" = "Collecte de données";
+
+/* Delete */
+"Delete" = "Suprimer";
+
+/* Delete Tag */
+"Delete Tag" = "Supprimer pastille";
+
+/* Delete Comment? */
+"Delete comment?" = "Supprimer commentaire?";
+
+/* Delete project from this device? */
+"Delete project from this device?" = "Supprimer projet?";
+
+/* button
+   Done
+   Done reordering areas */
+"Done" = "OK";
+
+/* Downloading users... */
+"Downloading users..." = "Importation liste utilisateur...";
+
+/* Edit */
+"Edit" = "Modifier";
+
+/* Edit Comment */
+"Edit Comment" = "Modifier commentaire";
+
+/* Edit Level */
+"Edit Level" = "Modifier niveau";
+
+/* Edit Tag */
+"Edit Tag" = "Modifier élément";
+
+/* End on this level instead */
+"End on this level instead" = "Arrêt à ce niveau";
+
+/* Enter your password */
+"Enter your password" = "Mot de passe";
+
+/* Erase */
+"Erase" = "Effacer";
+
+/* Export */
+"Export" = "Exporter";
+
+/* Exporting Project */
+"Exporting Project" = "Exportation de projet";
+
+/* Exporting Report */
+"Exporting Report" = "Exportation de rapport";
+
+/* Failed to load selected project file */
+"Failed to load selected project file" = "Échec d'importation du projet";
+
+/* Flip the switch to turn off colors for this level. */
+"Flip the switch to turn off colors for this level." = "Désactiver les couleurs pour ce niveau";
+
+/* Flip the switch to turn off shapes for this level. */
+"Flip the switch to turn off shapes for this level." = "Désactiver les formes pour ce niveau";
+
+/* Flip the switch to turn on colors for this level. */
+"Flip the switch to turn on colors for this level." = "Activer les couleurs pour ce niveau";
+
+/* Flip the switch to turn on shapes for this level. */
+"Flip the switch to turn on shapes for this level." = "Activer les formes pour ce niveau";
+
+/* Forms */
+"Forms" = "Formulaires";
+
+/* Import image from a file or an archive */
+"From image or zip file..." = "Importer";
+
+/* Generating Report */
+"Generating Report" = "Création rapport";
+
+/* Import
+   Import image from a file. */
+"Import" = "Importer";
+
+/* Import project with %s areas? */
+"Import project with %s areas?" = "Importer projet et %s plans?";
+
+/* Importing zip archive */
+"Importing zip archive" = "Importation fichier";
+
+/* Invalid username or password */
+"Invalid username or password" = "Nom d'utilisateur ou mot de passe invalide";
+
+/* Log Out */
+"Log Out" = "Se déconnecter";
+
+/* Logout warning. */
+"Logging out will permanently delete ALL projects from this tablet. It is highly recommended to export ALL projects to ensure that no data is lost.
+
+If you have already exported all your projects, confirm that you have understood that all projects will be deleted by typing in your password below." = "La déconnexion supprimera définitivement TOUS les projets de cette tablette. Il est fortement recommandé d'exporter TOUS vos projets pour veiller à ce qu'aucune donnée ne soit perdue.
+
+Si vous avez déjà exporté tous vos projets, confirmer que vous avez bien compris que tous les projets seront supprimés en tapant votre mot de passe ci-dessous.";
+
+/* Login */
+"Login" = "Enregistrement";
+
+/* Looks like this archive was created by a previous version of inField */
+"Looks like this archive was created by a previous version of inField" = "Projet INFIELD créé par une ancienne version";
+
+/* Modify Area */
+"Modify Area" = "Modifier plan";
+
+/* Modifying this area will invalidate the positions of %s observations. */
+"Modifying this area will invalidate the positions of %s observations." = "La modification de ce plan invalide la position des pastilles existantes";
+
+/* Never */
+"Never" = "Jamais";
+
+/* New Issue Number */
+"New Issue Number" = "Nouveau numéro";
+
+/* New Level */
+"New Level" = "Nouveau niveau";
+
+/* New Tag */
+"New Tag" = "Nouvel élément de liste";
+
+/* No */
+"No" = "Non";
+
+/* No area selected */
+"No area selected" = "Aucune plan sélectionnée";
+
+/* No areas have been defined */
+"No areas have been defined" = "Aucun plan n'a été défini";
+
+/* No tags. Click the plus to add one. */
+"No tags. Click the plus to add one." = "Aucun élément. Ajouter en appuyant sur +";
+
+/* OK */
+"OK" = "OK";
+
+/* Please enter the name of the copied project */
+"Please enter the name of the copied project" = "Titre du projet copié";
+
+/* Project List */
+"Project List" = "Liste de projets";
+
+/* Refresh */
+"Refresh" = "Rafraichir";
+
+/* Remove */
+"Remove" = "Supprimer";
+
+/* Remove area from this project? */
+"Remove area from this project?" = "Supprimer ce plan?";
+
+/* Remove this form from this project? */
+"Remove this form from this project?" = "
+Retirer cette formulaire de ce projet?";
+
+/* Removing this area will also remove %s observations. */
+"Removing this area will also remove %s observations." = "Les pastilles du plan seront aussi supprimé";
+
+/* Renumber existing issues? */
+"Renumber existing issues?" = "Renuméroté les pastilles";
+
+/* Reorder areas */
+"Reorder" = "Réorganiser";
+
+/* Replace */
+"Replace" = "Remplacer";
+
+/* Report */
+"Report" = "Rapport";
+
+/* Retry */
+"Retry" = "Recommencer";
+
+/* Settings */
+"Settings" = "Paramètres";
+
+/* Skip this level instead */
+"Skip this level instead" = "Sauter ce niveau";
+
+/* Sync */
+"Sync" = "Synchroniser";
+
+/* Sync & Remove */
+"Sync & Remove" = "Synchroniser et retirer de la tablette";
+
+/* Tag selection will end here when %s is selected. */
+"Tag selection will end here when %s is selected." = "Le sélection d'éléments se terminera ici lorsque %s est sélectionné";
+
+/* Tag selection will end here. */
+"Tag selection will end here." = "La sélection d'éléments se terminera ici";
+
+/* Tag selection will skip this level when %s is selected. */
+"Tag selection will skip this level when %s is selected." = "Le sélection d'éléments sautera ce niveau lorsque %s est sélectionné";
+
+/* Tag selection will skip this level. */
+"Tag selection will skip this level." = "Le sélection d'éléments sautera ce niveau";
+
+/* Take a photo */
+"Take a photo" = "Prendre une photo";
+
+/* The form must be a PDF file */
+"The form must be a PDF file" = "Le formulaire doit être un fichier PDF";
+
+/* The selected file did not contain an image or PDF */
+"The selected file did not contain an image or PDF" = "Le fichier sélectionné ne contenait pas de JPEG ou PDF";
+
+/* Error loading archive file. */
+"There was an error loading the selected infield archive" = "Erreur de lecture du fichier INFIELD";
+
+/* This is a regular level */
+"This is a regular level" = "Niveau (liste) régulière";
+
+/* This project already exists */
+"This project already exists" = "Projet existant";
+
+/* This will remove colors from %s and add them to this level instead? */
+"This will remove colors from %s and add them to this level instead?" = "Désactiver les couleurs du niveau %s pour les activés ici?";
+
+/* This will remove shapes from %s and add them to this level instead? */
+"This will remove shapes from %s and add them to this level instead?" = "Désactiver les formes du niveau %s pour les activés ici?";
+
+/* Unmodified */
+"Unmodified" = "Non modifié";
+
+/* User Label */
+"User Label" = "Étiquette d'utilisateur";
+
+/* Warning */
+"Warning" = "Avertissement";
+
+/* Yes */
+"Yes" = "Oui";
+
+/* You will remove this tag from %s observation. */
+"You will remove this tag from %s observation." = "Ceci retirera l'élément de %s pastilles";
+
+/* You will remove this tag from 1 observation. */
+"You will remove this tag from 1 observation." = "Ceci retirera l'élément de 1 pastille";
+

@@ -1,0 +1,99 @@
+/* Class = "UILabel"; text = "Orientation"; ObjectID = "1Xi-uj-K6h"; */
+"1Xi-uj-K6h.text" = "Orientation";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "1ob-xO-Yyj"; */
+"1ob-xO-Yyj.text" = "Détail";
+
+/* Class = "UILabel"; text = "12"; ObjectID = "3ZN-VT-Mbx"; */
+"3ZN-VT-Mbx.text" = "12";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "4Fb-CT-wUH"; */
+"4Fb-CT-wUH.text" = "Détail";
+
+/* Class = "UITableViewSection"; headerTitle = "Format"; ObjectID = "5GN-wP-Rky"; */
+"5GN-wP-Rky.headerTitle" = "Format";
+
+/* Class = "UILabel"; text = "Photos Per Page"; ObjectID = "9vD-hy-7nB"; */
+"9vD-hy-7nB.text" = "Photos par page";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "26d-B8-iiO"; */
+"26d-B8-iiO.text" = "1";
+
+/* Class = "UILabel"; text = "8½ x 11"; ObjectID = "483-0R-1Yb"; */
+"483-0R-1Yb.text" = "8½ x 11";
+
+/* Class = "UILabel"; text = "Export PDF..."; ObjectID = "ARH-0Z-tbN"; */
+"ARH-0Z-tbN.text" = "Exporter rapport PDF";
+
+/* Class = "UILabel"; text = "Include Cover Page"; ObjectID = "BZw-eL-iiV"; */
+"BZw-eL-iiV.text" = "Inclure page couverture";
+
+/* Class = "UILabel"; text = "Plans"; ObjectID = "EaH-tN-iMG"; */
+"EaH-tN-iMG.text" = "Section plans";
+
+/* Class = "UITableViewController"; title = "Orientation"; ObjectID = "FaO-RG-RPc"; */
+"FaO-RG-RPc.title" = "Orientation";
+
+/* Class = "UILabel"; text = "Additional Title Page Text"; ObjectID = "I49-HR-U2l"; */
+"I49-HR-U2l.text" = "Texte supplémentaire";
+
+/* Class = "UITableViewSection"; headerTitle = "Export"; ObjectID = "L2i-kc-9eS"; */
+"L2i-kc-9eS.headerTitle" = "Exporter";
+
+/* Class = "UITableViewController"; title = "Photos Per Page"; ObjectID = "MnX-3g-Lha"; */
+"MnX-3g-Lha.title" = "Photos par page";
+
+/* Class = "UITableViewController"; title = "Report Size"; ObjectID = "NEf-3w-5CV"; */
+"NEf-3w-5CV.title" = "Fichier rapport";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "PG4-qs-xEl"; */
+"PG4-qs-xEl.text" = "4";
+
+/* Class = "UILabel"; text = "11 x 17"; ObjectID = "SlA-II-NuW"; */
+"SlA-II-NuW.text" = "11 x 17";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "TVH-O6-LdX"; */
+"TVH-O6-LdX.text" = "Détail";
+
+/* Class = "UITableViewSection"; headerTitle = "Contains"; ObjectID = "aTu-5Y-wDg"; */
+"aTu-5Y-wDg.headerTitle" = "Inclure";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "bSx-s8-uw6"; */
+"bSx-s8-uw6.text" = "Détail";
+
+/* Class = "UILabel"; text = "Portrait"; ObjectID = "c7i-hm-jPU"; */
+"c7i-hm-jPU.text" = "Portrait";
+
+/* Class = "UINavigationItem"; title = "Configure Report"; ObjectID = "dY4-wr-Ymr"; */
+"dY4-wr-Ymr.title" = "Configuration rapport";
+
+/* Class = "UITableViewController"; title = "Report Settings"; ObjectID = "ddV-Ms-yQO"; */
+"ddV-Ms-yQO.title" = "Paramètres rapport";
+
+/* Class = "UILabel"; text = "Cover Page"; ObjectID = "eD7-Q9-jJ8"; */
+"eD7-Q9-jJ8.text" = "Page couverture";
+
+/* Class = "UILabel"; text = "9"; ObjectID = "eru-Lb-RgD"; */
+"eru-Lb-RgD.text" = "9";
+
+/* Class = "UIViewController"; title = "Cover Page"; ObjectID = "f6v-TJ-UGc"; */
+"f6v-TJ-UGc.title" = "Page couverture";
+
+/* Class = "UILabel"; text = "Size"; ObjectID = "fba-eU-iEB"; */
+"fba-eU-iEB.text" = "Qualité";
+
+/* Class = "UILabel"; text = "Pill Images"; ObjectID = "j7g-eS-vhu"; */
+"j7g-eS-vhu.text" = "Section photos";
+
+/* Class = "UILabel"; text = "Photo Page Orientation"; ObjectID = "qGT-Mv-do6"; */
+"qGT-Mv-do6.text" = "Orientation pages photo";
+
+/* Class = "UILabel"; text = "Landscape"; ObjectID = "thr-H2-ThY"; */
+"thr-H2-ThY.text" = "Paysage";
+
+/* Class = "UILabel"; text = "Portrait"; ObjectID = "uWi-U4-m6e"; */
+"uWi-U4-m6e.text" = "Portrait";
+
+/* Class = "UILabel"; text = "Pill Comments"; ObjectID = "vgE-Tq-jTo"; */
+"vgE-Tq-jTo.text" = "Section description";
+

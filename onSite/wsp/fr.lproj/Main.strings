@@ -1,0 +1,132 @@
+/* Class = "UILabel"; text = "Issue Number"; ObjectID = "1v8-Qq-Rto"; */
+"1v8-Qq-Rto.text" = "No pastille";
+
+/* Class = "UILabel"; text = ""; ObjectID = "9Qc-CY-AiU"; */
+"9Qc-CY-AiU.text" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "9nN-Ep-lvr"; */
+"9nN-Ep-lvr.normalTitle" = "";
+
+/* Class = "UITableViewSection"; headerTitle = "Sort"; ObjectID = "61w-Ng-jlk"; */
+"61w-Ng-jlk.headerTitle" = "Trier";
+
+/* Class = "UILabel"; text = "No photos"; ObjectID = "Ass-5e-EAf"; */
+"Ass-5e-EAf.text" = "Aucune Photo";
+
+/* Class = "UILabel"; text = "Downloading users..."; ObjectID = "CMi-C0-qNj"; */
+"CMi-C0-qNj.text" = "Téléchargement d'utilisateurs";
+
+/* Class = "UILabel"; text = "Zip"; ObjectID = "FdW-a3-sj9"; */
+"FdW-a3-sj9.text" = "Zip";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GMW-fs-jr8"; */
+"GMW-fs-jr8.text" = "Label";
+
+/* Class = "UILabel"; text = "Excel"; ObjectID = "HkW-0P-ceO"; */
+"HkW-0P-ceO.text" = "Excel";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "KTf-UQ-sIA"; */
+"KTf-UQ-sIA.normalTitle" = "Annuler";
+
+/* Class = "UILabel"; text = "[Comment]"; ObjectID = "MeU-bK-od5"; */
+"MeU-bK-od5.text" = "[Commentaire]";
+
+/* Class = "UILabel"; text = "No projects. Use the buttons below to import or create a project."; ObjectID = "OFq-W7-00U"; */
+"OFq-W7-00U.text" = "Aucun projet. Utilisez les boutons ci-dessous pour importer ou créer un projet.";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Qeq-sz-C8A"; */
+"Qeq-sz-C8A.placeholder" = "Nom d'utilisateur";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "SbQ-uD-yDL"; */
+"SbQ-uD-yDL.normalTitle" = "Identification";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Thu-yk-g1N"; */
+"Thu-yk-g1N.normalTitle" = "Bouton";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Tli-eg-0cn"; */
+"Tli-eg-0cn.normalTitle" = "";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "UkP-91-UEU"; */
+"UkP-91-UEU.placeholder" = "Mot de passe";
+
+/* Class = "UINavigationController"; title = "Project Navigation"; ObjectID = "VL0-42-5dX"; */
+"VL0-42-5dX.title" = "Navigation projet";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "VXQ-Sb-9sa"; */
+"VXQ-Sb-9sa.text" = "Titre";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "Vq4-0n-Qlp"; */
+"Vq4-0n-Qlp.text" = "Paramètres";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wlb-Ro-NxP"; */
+"Wlb-Ro-NxP.normalTitle" = "Bouton";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "XxD-8c-pTR"; */
+"XxD-8c-pTR.title" = "Enregistrement";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "Ywu-IK-qm0"; */
+"Ywu-IK-qm0.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ZiZ-Lx-U2K"; */
+"ZiZ-Lx-U2K.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Last Sync"; ObjectID = "aWI-MJ-UbO"; */
+"aWI-MJ-UbO.text" = "Last Sync";
+
+/* Class = "UILabel"; text = "Settings & Areas"; ObjectID = "aWV-DJ-cWH"; */
+"aWV-DJ-cWH.text" = "Paramètres + Plans";
+
+/* Class = "UILabel"; text = "Lasy Sync"; ObjectID = "c3q-wK-dhT"; */
+"c3q-wK-dhT.text" = "Synchronisation lente";
+
+/* Class = "UILabel"; text = "Issues"; ObjectID = "dCB-tJ-85k"; */
+"dCB-tJ-85k.text" = "Observation";
+
+/* Class = "UILabel"; text = "New"; ObjectID = "dde-l4-rTK"; */
+"dde-l4-rTK.text" = "Nouveau";
+
+/* Class = "UILabel"; text = "Sign Out"; ObjectID = "dst-3J-5JG"; */
+"dst-3J-5JG.text" = "Déconnecter";
+
+/* Class = "UIBarButtonItem"; title = "Login"; ObjectID = "eb0-2I-3qa"; */
+"eb0-2I-3qa.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "gnP-5I-Css"; */
+"gnP-5I-Css.normalTitle" = "";
+
+/* Class = "UINavigationItem"; title = "Create Project"; ObjectID = "gtk-3b-HMl"; */
+"gtk-3b-HMl.title" = "Nouveau projet";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "h1Y-wa-urE"; */
+"h1Y-wa-urE.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hMU-U2-YKA"; */
+"hMU-U2-YKA.text" = "Titre";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "hj7-I3-knX"; */
+"hj7-I3-knX.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iCU-te-NkJ"; */
+"iCU-te-NkJ.normalTitle" = "Bouton";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "iFk-2I-JQy"; */
+"iFk-2I-JQy.text" = "Titre";
+
+/* Class = "UILabel"; text = "Last Sync"; ObjectID = "lkk-xV-xP6"; */
+"lkk-xV-xP6.text" = "Synchronisation lente";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "n99-dy-Uh9"; */
+"n99-dy-Uh9.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Last Modified Date"; ObjectID = "vPJ-RR-NF9"; */
+"vPJ-RR-NF9.text" = "Dernière modification";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "vu0-Vm-iF1"; */
+"vu0-Vm-iF1.text" = "1";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "xCo-tS-LF2"; */
+"xCo-tS-LF2.normalTitle" = "";
+
+/* Class = "UIButton"; normalTitle = ""; ObjectID = "ycH-Qy-jgK"; */
+"ycH-Qy-jgK.normalTitle" = "";
+

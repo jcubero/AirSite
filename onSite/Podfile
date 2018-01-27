@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '8.1'
+
+target 'wsp' do
+  # swift
+  pod 'Alamofire', '~> 4.5'
+  pod 'KeychainAccess',  :inhibit_warnings => true # has 3
+  pod 'SwiftyJSON' # has 3
+  pod 'PromiseKit', '~> 4.4'
+  pod 'ReachabilitySwift' # has 3
+  pod 'CameraManager', '~> 4.0'
+  pod 'HanekeSwift', :git => 'https://github.com/Haneke/HanekeSwift.git'
+  pod 'CryptoSwift', :git => 'https://github.com/krzyzanowskim/CryptoSwift', :branch => 'master'
+  # objc
+  pod 'MagicalRecord', :inhibit_warnings => true
+  pod 'zipzap', :inhibit_warnings => true
+  pod 'GLCalendarView', '~> 1.2.1'
+end
