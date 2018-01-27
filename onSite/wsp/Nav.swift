@@ -134,7 +134,7 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
   func reloadAndUpdateTable() {
     self.tableView.reloadData()
     
-    if let area = self.activeArea, let indexPath = self.fetchedResultsController().indexPath(forObject: area) {
+    if let area = self.activeArea, let indexPath = self.fetchedResultsController.indexPath(forObject: area) {
       self.tableView.selectRow(at: indexPath, animated: false, scrollPosition: UITableViewScrollPosition.top)
     }
     
@@ -191,9 +191,7 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
   }
  //   var fetchedResultsController: NSFetchedResultsController<Area>
         
-
-    
-    lazy var fetchedResultsController = { () -> NSFetchedResultsController<NSFetchRequestResult> in
+    lazy var fetchedResultsController: NSFetchedResultsController<NSFetchRequestResult> = { [unowned self] in
         if let project = self.project {
             let areaFetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Area")
             let predicate = NSPredicate(format: "project = %@", project)
@@ -212,7 +210,9 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
             return frc
         }
         return NSFetchedResultsController()
-    }
+        }()
+    
+    
   
    
   lazy var forms: [Form] = { [unowned self] in
@@ -225,6 +225,8 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.tableView.delegate = self
+    self.tableView.dataSource = self 
     
     automaticallyAdjustsScrollViewInsets = false
     extendedLayoutIncludesOpaqueBars = false
@@ -240,7 +242,7 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
     }
     
     do {
-      try fetchedResultsController().performFetch()
+        try fetchedResultsController.performFetch()
     } catch {
       Config.error("Could not fetch results from controller.")
     }
@@ -263,8 +265,8 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
 
   func selectFirstArea() {
 
-    if self.fetchedResultsController().fetchedObjects != nil{
-        if (self.fetchedResultsController().fetchedObjects?.count)! > 0 {
+    if self.fetchedResultsController.fetchedObjects != nil{
+        if (self.fetchedResultsController.fetchedObjects?.count)! > 0 {
             self.delay(0.1, closure: { [unowned self] in
                 let indexPath = IndexPath(row: 0, section: 0)
                 self.tableView.selectRow(at: indexPath, animated: true, scrollPosition: UITableViewScrollPosition.bottom)
@@ -422,7 +424,7 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
     
     var sections = 0
     
-    if self.fetchedResultsController().fetchedObjects!.count > 0 {
+    if self.fetchedResultsController.fetchedObjects!.count > 0 {
       sections += 1
     }
     
@@ -437,7 +439,7 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
     
     var sections = 0
     
-    if self.fetchedResultsController().fetchedObjects!.count > 0 {
+    if self.fetchedResultsController.fetchedObjects!.count > 0 {
       sections += 1
     }
     if forms.count > 0 {
@@ -455,8 +457,8 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
   func numberOfSections(in tableView: UITableView) -> Int {
     
     var sections = 0
-    if self.fetchedResultsController().fetchedObjects != nil{
-        if self.fetchedResultsController().fetchedObjects!.count > 0 {
+    if self.fetchedResultsController.fetchedObjects != nil{
+        if self.fetchedResultsController.fetchedObjects!.count > 0 {
             sections += 1
         }
         if forms.count > 0 {
@@ -484,7 +486,7 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     
     if sectionIsAreas(section) {
-      return fetchedResultsController().fetchedObjects!.count
+        return fetchedResultsController.fetchedObjects!.count
       
     } else if sectionIsForms(section) {
       return forms.count
@@ -500,7 +502,7 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
     let cell = self.tableView.dequeueReusableCell(withIdentifier: "NavTableViewCell") as! NavTableViewCell
     
     if sectionIsAreas(indexPath.section) {
-      let area = self.fetchedResultsController().object(at: IndexPath(row: indexPath.row, section: 0)) as! Area
+        let area = self.fetchedResultsController.object(at: IndexPath(row: indexPath.row, section: 0)) as! Area
       cell.issuePredicate = self.filter.issuePredicate
       cell.area = area
     } else if sectionIsForms(indexPath.section) {
@@ -534,13 +536,13 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
     
     if sectionIsAreas(indexPath.section) {
       Manager.sharedInstance.startActivity(withMessage: NSLocalizedString("Loading...", comment: ""))
-      let area = self.fetchedResultsController().object(at: IndexPath(row: indexPath.row, section: 0)) as! Area
+        let area = self.fetchedResultsController.object(at: IndexPath(row: indexPath.row, section: 0)) as! Area
       self.activeArea = area
       
     } else if sectionIsForms(indexPath.section) {
       
       if let area = activeArea {
-        guard let index = fetchedResultsController().indexPath(forObject: area) else {
+        guard let index = fetchedResultsController.indexPath(forObject: area) else {
           Config.error()
           return
         }
@@ -592,7 +594,7 @@ extension Nav : UITableViewDelegate, UITableViewDataSource {
   
  func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
     
-    if self.fetchedResultsController().fetchedObjects!.count > 0 && forms.count > 0 {
+    if self.fetchedResultsController.fetchedObjects!.count > 0 && forms.count > 0 {
       return 30.0
     } else {
       return 0

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VL0-42-5dX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VL0-42-5dX">
     <device id="ipad12_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -338,7 +338,7 @@
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="qZu-VQ-rV4">
-                        <rect key="frame" x="0.0" y="20" width="1024" height="48"/>
+                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -348,7 +348,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnx-5n-yWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-154" y="264"/>
+            <point key="canvasLocation" x="15" y="25"/>
         </scene>
         <!--Image Editor View Controller-->
         <scene sceneID="xf3-EC-Ub9">
@@ -1010,6 +1010,7 @@
                                             <outlet property="projectSizeLabel" destination="aWI-MJ-UbO" id="JEL-ty-zPo"/>
                                             <outlet property="title" destination="hMU-U2-YKA" id="E7h-Go-igL"/>
                                             <outlet property="topRow" destination="UrQ-bD-VQ7" id="H8x-UY-EEM"/>
+                                            <segue destination="sT2-3x-bge" kind="show" identifier="EditProject" id="gF3-tn-MtI"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1117,35 +1118,20 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Nd7-MU-9lR">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="Gq2-d5-1Ai">
-                            <view key="customView" contentMode="scaleToFill" id="lx4-gH-KDT">
-                                <rect key="frame" x="777" y="7.5" width="227" height="33"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="djw-D6-YZv">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uLp-sm-Ggi">
+                                <rect key="frame" x="926" y="10" width="78" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tli-eg-0cn" userLabel="I">
-                                        <rect key="frame" x="192" y="0.0" width="30" height="34"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="30" id="Ew2-QM-vN0"/>
-                                            <constraint firstAttribute="height" constant="34" id="TuM-60-tHd"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="MaterialIcons-Regular" family="Material Icons" pointSize="22"/>
-                                        <state key="normal" title="">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="2Sq-hn-Lu3" kind="popoverPresentation" identifier="ProjectListMenu" popoverAnchorView="Tli-eg-0cn" id="dwe-BZ-SH0">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="Tli-eg-0cn" secondAttribute="centerY" id="XLN-eA-qJV"/>
-                                    <constraint firstAttribute="trailing" secondItem="Tli-eg-0cn" secondAttribute="trailing" constant="5" id="rfX-pl-Aak"/>
-                                </constraints>
-                            </view>
+                                <state key="normal" image="ic_settings"/>
+                                <connections>
+                                    <action selector="displaySettings:" destination="Nud-0K-Gpu" eventType="touchUpInside" id="zyC-fa-PbC"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <segue destination="2Sq-hn-Lu3" kind="popoverPresentation" identifier="ProjectListMenu" popoverAnchorBarButtonItem="djw-D6-YZv" id="aPe-eQ-IpZ">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -1159,13 +1145,12 @@
                             <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                         </segue>
                         <segue destination="PuI-DN-Iyz" kind="presentation" identifier="ShowProject" id="Fld-vn-4As"/>
-                        <segue destination="sT2-3x-bge" kind="show" identifier="EditProject" id="EaB-RC-fGM"/>
                         <segue destination="sT2-3x-bge" kind="show" identifier="AddProject" id="aow-Pa-qsV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3U3-rN-TLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="629" y="309"/>
+            <point key="canvasLocation" x="706" y="93"/>
         </scene>
         <!--Project-->
         <scene sceneID="163-uc-rJb">
@@ -1478,7 +1463,7 @@
                 <viewControllerPlaceholder storyboardName="ProjectMenu" id="2Sq-hn-Lu3" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AV8-uG-osU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1443" y="309"/>
+            <point key="canvasLocation" x="1349" y="85"/>
         </scene>
     </scenes>
     <resources>
@@ -1488,9 +1473,10 @@
         <image name="InfieldLogo" width="1000" height="440"/>
         <image name="Logo" width="736" height="112"/>
         <image name="button-blue" width="60" height="60"/>
+        <image name="ic_settings" width="24" height="24"/>
         <image name="list-created-icon" width="36" height="36"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aow-Pa-qsV"/>
+        <segue reference="gF3-tn-MtI"/>
     </inferredMetricsTieBreakers>
 </document>

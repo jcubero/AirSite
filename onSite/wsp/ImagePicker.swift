@@ -40,25 +40,25 @@ class ImagePicker: NSObject, UIImagePickerControllerDelegate, UINavigationContro
     
   }
   
-  func loadMultipleImagePickerInViewController(_ vc: UIViewController, location: CGRect, completion: @escaping ([FileStruct]) -> ()) {
-    
-    self.refferingViewController = vc
-    self.multipleCompletionCallback = { completion($0) }
-    self.location = location
-    
-    let storyboard = UIStoryboard(name: "ImagePicker", bundle: nil)
-    let importMenu = storyboard.instantiateInitialViewController() as! UINavigationController
-    
-    let imagePicker = importMenu.viewControllers.first! as! ImagePickerTableViewController
-    
-    imagePicker.callingVc = self
-    let message = NSLocalizedString("From image or zip file...", comment: "Import image from a file or an archive")
-    imagePicker.filesString = message
-    
-    let popup = UIPopoverController(contentViewController: importMenu)
-    popup.present(from: location, in: vc.view, permittedArrowDirections: .any, animated: true)
-    
-  }
+    func loadMultipleImagePickerInViewController(vc: UIViewController, location: CGRect, completion: @escaping ([FileStruct]) -> ()) {
+        
+        self.refferingViewController = vc
+        self.multipleCompletionCallback = { completion($0) }
+        self.location = location
+        
+        let storyboard = UIStoryboard(name: "ImagePicker", bundle: nil)
+        let importMenu = storyboard.instantiateInitialViewController() as! UINavigationController
+        
+        let imagePicker = importMenu.viewControllers.first! as! ImagePickerTableViewController
+        
+        imagePicker.callingVc = self
+        let message = NSLocalizedString("From image or zip file...", comment: "Import image from a file or an archive")
+        imagePicker.filesString = message
+        
+        let popup = UIPopoverController(contentViewController: importMenu)
+        popup.present(from: location, in: vc.view, permittedArrowDirections: .any, animated: true)
+        
+    }
   
   
   func cameraHandler() {
@@ -110,7 +110,7 @@ class ImagePicker: NSObject, UIImagePickerControllerDelegate, UINavigationContro
   
   func fileHandler() {
     
-    var fileTypes: [FileTypes] = [.Image]
+    var fileTypes: [FileTypes] = [.Image, .PDF]
     
     if self.multipleCompletionCallback != nil {
       fileTypes.append(.Zip)

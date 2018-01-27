@@ -199,13 +199,8 @@ class ProjectListViewController: UIViewController, NSFetchedResultsControllerDel
         return cell
 
     }
-  
-    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath){
-        self.selectedRow = indexPath
-        self.performSegue(withIdentifier: "EditProject", sender: nil)
-    }
-  
-  func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
+
+func controllerDidChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {
     self.tableView.endUpdates()
     emptyState.isHidden = fetchedResultsController!.fetchedObjects!.count > 0
   }
@@ -214,7 +209,10 @@ class ProjectListViewController: UIViewController, NSFetchedResultsControllerDel
     self.tableView.beginUpdates()
   }
 
-
+    @IBAction func displaySettings(_ sender: Any) {
+        self.performSegue(withIdentifier: "ProjectListMenu", sender: nil)
+    }
+    
   func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChange anObject: Any, at indexPath: IndexPath?, for type: NSFetchedResultsChangeType, newIndexPath: IndexPath?) {
 
     switch type {
@@ -261,7 +259,8 @@ class ProjectListViewController: UIViewController, NSFetchedResultsControllerDel
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "EditProject" {
       
-      let project = self.fetchedResultsController!.object(at: IndexPath(row: self.selectedRow!.row, section: 0)) as! Project
+      let selectedRow:Int = (self.tableView.indexPathForSelectedRow?.row)!
+      let project = self.fetchedResultsController!.object(at: IndexPath(row: selectedRow, section: 0)) as! Project
       let editViewController = segue.destination as! EditProjectTabBarController
       editViewController.project = project
       
@@ -278,8 +277,8 @@ class ProjectListViewController: UIViewController, NSFetchedResultsControllerDel
       let projectListMenuTableViewController = segue.destination as! ProjectListMenuTableViewController
       projectListMenuTableViewController.delegate = self as ProjectListMenuDelegate
       projectListMenuTableViewController.setCheckmark(self.sortByRow)
-      let dest = projectListMenuTableViewController.popoverPresentationController!.sourceView!.bounds
-      projectListMenuTableViewController.popoverPresentationController?.sourceRect = dest
+//      let dest = projectListMenuTableViewController.popoverPresentationController!.sourceView!.bounds
+//      projectListMenuTableViewController.popoverPresentationController?.sourceRect = dest
       
       
     } else if segue.identifier == "ProjectListExport" {

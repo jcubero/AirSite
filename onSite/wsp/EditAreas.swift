@@ -47,6 +47,8 @@ class EditAreas: UIViewController , UITableViewDataSource, UITableViewDelegate {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.tableView.delegate = self
+    self.tableView.dataSource = self
     
     self.tableView.isEditing = false
     self.tableView.allowsMultipleSelectionDuringEditing = true
@@ -108,7 +110,7 @@ class EditAreas: UIViewController , UITableViewDataSource, UITableViewDelegate {
     self.imagePicker!.showRemove = false
     let frame = sender.superview!.convert(sender.frame, to: self.view)
     
-    self.imagePicker!.loadMultipleImagePickerInViewController(self, location: frame) { files in
+    self.imagePicker!.loadMultipleImagePickerInViewController(vc: self, location: frame) { files in
       
       if files.count > 0 {
         let onlyOne: Bool = files.count == 1 ? true : false

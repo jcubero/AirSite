@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Nav.sectionIsAreas(_:):Nav.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.fetchedResultsController().fetchedObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProjectListViewController.tableView(_:cellForRowAt:):ProjectListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProjectListViewController.tableView(_:didDeselectRowAt:):ProjectListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProjectListViewController.prepare(for:sender:):ProjectListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "projectListMenuTableViewController.popoverPresentationController">
+            </PersistentString>
+            <PersistentString
+               value = "projectListMenuTableViewController.popoverPresentationController!.sourceView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Nav.tableView(_:heightForHeaderInSection:):Nav.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "forms">
+            </PersistentString>
+            <PersistentString
+               value = "self.fetchedResultsController()">
+            </PersistentString>
+            <PersistentString
+               value = "self.fetchedResultsController().fetchedObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

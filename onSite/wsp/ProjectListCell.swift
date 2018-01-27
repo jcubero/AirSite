@@ -81,7 +81,7 @@ class ProjectListCell: UITableViewCell {
       })
       
       
-      self.layoutMargins = UIEdgeInsetsMake(0, self.topRow.frame.origin.x, 0, 0)
+      //self.layoutMargins = UIEdgeInsetsMake(0, self.topRow.frame.origin.x, 0, 0)
       
       
     }
