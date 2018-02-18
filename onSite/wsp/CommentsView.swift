@@ -20,7 +20,7 @@ class CommentsView: UIView, NSFetchedResultsControllerDelegate, UITableViewDeleg
   var frc: NSFetchedResultsController<NSFetchRequestResult>!
   
   weak var rootView: ProjectSplitView!
-  var imageData: Data?
+  var imageData: FileStruct?
   
   weak var tableView: UITableView!
   weak var textField: UITextField!

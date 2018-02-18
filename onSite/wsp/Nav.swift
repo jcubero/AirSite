@@ -151,20 +151,22 @@ class Nav: UIViewController, CategoryPopoverDelegate, ActiveFilterProtocol {
     })
     
   }
+    func importTags(_ files: [FileStruct])
+    {
+        for file in files {
+            if file.type == .Image {
+                // only consider 1 image file
+                self.getImage(file.data)
+            }
+        }
+
+    }
+    
   
   @IBAction func showImagePicker(_ sender: UIButton) {
     
     self.fileManager = FileManager_(vc: self, forFileTypes: [.Image])
-    self.fileManager.loadFilePicker() {
-      files in
-      for file in files {
-        if file.type == .Image {
-          // only consider 1 image file
-         self.getImage(file.data)
-        }
-      }
-      
-    }
+    self.fileManager?.loadFilePicker(importTags)
     
   }
   

@@ -108,6 +108,17 @@ class ImagePicker: NSObject, UIImagePickerControllerDelegate, UINavigationContro
     }
   }
   
+    func importTags(_ files: [FileStruct])
+    {
+        if files.count  == 1
+        {
+            self.multipleCompletionCallback!(files)
+        }
+        else if files.count > 1 {
+            self.multipleCompletionCallback!(files)
+        }
+    }
+    
   func fileHandler() {
     
     var fileTypes: [FileTypes] = [.Image, .PDF]
@@ -117,19 +128,7 @@ class ImagePicker: NSObject, UIImagePickerControllerDelegate, UINavigationContro
     }
     
     self.fileManager = FileManager_(vc: self.refferingViewController, forFileTypes: fileTypes)
-    
-    self.fileManager!.loadFilePicker() { [unowned self] files in
-      if let comp = self.completionCallback {
-        if files.count  == 1 {
-          let file = files[0]
-          comp(file.data as Data)
-        }
-        
-      } else if let comp = self.multipleCompletionCallback {
-        comp(files)
-        
-      }
-    }
+   self.fileManager?.loadFilePicker(importTags)
   }
   
   

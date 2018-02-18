@@ -43,29 +43,6 @@ class FormViewController: ILPDFViewController {
     }
     timer!.resume()
   }
-//    func startTimer() {
-//        timer = dispatch_source_create(DispatchSourceTimer, 0, 0, dispatch_get_main_queue())
-//        // timer = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, dispatch_get_main_queue())
-//
-//
-//        (timer!, DISPATCH_TIME_NOW, 5 * NSEC_PER_SEC, 1 * NSEC_PER_SEC) // every 5 seconds, with leeway of 1 second
-//        dispatch_source_set_event_handler(timer!) { [weak self] in
-//
-//            guard let document = self?.document else {
-//                Config.error()
-//                return
-//            }
-//
-//            guard let form = self?.pagesViewController?.form else {
-//                Config.error()
-//                return
-//            }
-//
-//            form.document = document
-//            Manager.sharedInstance.saveCurrentState(nil)
-//        }
-//        dispatch_resume(timer!)
-//    }
 
   func stopTimer() {
     if let timer = timer {

@@ -83,7 +83,7 @@ extension PDFExport {
             y = CGFloat(position.y!.floatValue)
             let markerPoint = CGPoint(x: x * scaleFactor + imageOriginX, y: y * scaleFactor + imageOriginY)
             
-            let arrow =  UIBezierPath.bezierPathWithArrowFromPoint(point, endPoint: markerPoint, tailWidth: 1, headWidth: 6, headLength: 6)
+            let arrow =  UIBezierPath.bezierPathWithArrowFromPoint(startPoint: point, endPoint: markerPoint, tailWidth: 1, headWidth: 6, headLength: 6)
             issue.color.setFill()
             arrow.fill()
           }

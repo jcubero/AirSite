@@ -140,7 +140,7 @@ class PDFPage {
   
   func drawBottomImage() {
     
-    let image = self.resizeImage(UIImage(named: "report-footer-logo")!, maxHeight: self.bottomMargin - 20, maxWidth:3 * 72)
+    let image = self.resizeImage(UIImage(named: "ProjectIcon")!, maxHeight: self.bottomMargin - 20, maxWidth:3 * 72)
     let rect = CGRect(x: self.leftMargin, y: self.height - self.bottomMargin + 6, width: image.size.width, height: image.size.height)
     image.draw(in: rect)
     

@@ -90,7 +90,7 @@ class EditTagsCell: UITableViewCell {
       self.tsConstraint.constant = 14
     }
     
-    self.layoutMargins = UIEdgeInsetsMake(0, self.tsConstraint.constant + diff, 0, 0)
+    // self.layoutMargins = UIEdgeInsetsMake(0, self.tsConstraint.constant + diff, 0, 0)
     
   }
   

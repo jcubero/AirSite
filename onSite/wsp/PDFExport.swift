@@ -16,7 +16,7 @@ enum IssueTableHeaders { case icon, planNumber, issueNumber, issueTitle, issueCo
 let PDFTitlePageColor = UIColor(netHex: 0x649f35)
 let PDFSubtitleColor = UIColor(netHex: 0x00aab5)
 
-let PDFFilenameAppendString = NSLocalizedString("InField Report", comment: "InField Report")
+let PDFFilenameAppendString = NSLocalizedString("AirSite Report", comment: "AirSite Report")
 
 class PDFExport {
   

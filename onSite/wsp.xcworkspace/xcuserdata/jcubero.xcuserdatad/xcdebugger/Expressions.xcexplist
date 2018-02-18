@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ProjectListViewController.prepare(for:sender:):ProjectListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "projectListMenuTableViewController.popoverPresentationController">
+            </PersistentString>
+            <PersistentString
+               value = "projectListMenuTableViewController.popoverPresentationController!.sourceView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "Nav.sectionIsAreas(_:):Nav.swift">
          <PersistentStrings>
             <PersistentString
@@ -11,10 +22,43 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ProjectListViewController.tableView(_:cellForRowAt:):ProjectListViewController.swift">
+         contextName = "PDFExport.fillImageWithColor(_:color:):PDFCoverPage.swift">
          <PersistentStrings>
             <PersistentString
-               value = "indexPath.row">
+               value = "imageName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PDFExport.renderForm(_:):PDFFormPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "numberOfPages">
+            </PersistentString>
+            <PersistentString
+               value = "pdfRef!.page(at: 1)">
+            </PersistentString>
+            <PersistentString
+               value = "pdfRef!.page">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImportTagsTableViewController.tableView(_:didSelectRowAt:):ImportTagsTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.callingVc">
+            </PersistentString>
+            <PersistentString
+               value = "self.callingVc.importTags">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIBezierPath.bezierPathWithArrowFromPoint(_:endPoint:tailWidth:headWidth:headLength:):UIBezierPath+Extensions.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cgPath">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -27,13 +71,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ProjectListViewController.prepare(for:sender:):ProjectListViewController.swift">
+         contextName = "ProjectListViewController.tableView(_:cellForRowAt:):ProjectListViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "projectListMenuTableViewController.popoverPresentationController">
+               value = "indexPath.row">
             </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CommentsView.submitComment(_:):CommentsView.swift">
+         <PersistentStrings>
             <PersistentString
-               value = "projectListMenuTableViewController.popoverPresentationController!.sourceView">
+               value = "self.imageData">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -48,6 +97,58 @@
             </PersistentString>
             <PersistentString
                value = "self.fetchedResultsController().fetchedObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImagePicker.importTags(_:):ImagePicker.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "`">
+            </PersistentString>
+            <PersistentString
+               value = "file.data">
+            </PersistentString>
+            <PersistentString
+               value = "self.multipleCompletionCallback">
+            </PersistentString>
+            <PersistentString
+               value = "self.completionCallback!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EditLibraryParentToolbar.drawLegend(_:pos:):EditLibraryParentToolbar.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[NSAttributedStringKey.font.rawValue: self.font, NSAttributedStringKey.foregroundColor: self.defaultColor]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PDFExport.init(project:exportSettings:):PDFExport.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.filename">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EditAreaImageView.image.getter:EditAreaImageView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageView.image">
+            </PersistentString>
+            <PersistentString
+               value = "self._origImage">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EditLibraryViewController.prepare(for:sender:):EditLibraryViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

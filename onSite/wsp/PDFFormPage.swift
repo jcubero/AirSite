@@ -37,17 +37,17 @@ extension PDFExport {
     
     let context = UIGraphicsGetCurrentContext()
     
-    for i in 0 ..< numberOfPages! {
+    for i in 1 ..< numberOfPages! + 1 {
         
-        let page = pdfRef?.page(at: i);
-        let mediaBox = page?.getBoxRect(.mediaBox);
+        let page: CGPDFPage = pdfRef!.page(at: i)!
+        let mediaBox = page.getBoxRect(.mediaBox);
         
-        UIGraphicsBeginPDFPageWithInfo(mediaBox!, nil)
+        UIGraphicsBeginPDFPageWithInfo(mediaBox, nil)
         
         context?.saveGState ()
-        context?.translateBy(x: 0, y: (mediaBox?.height)!)
+        context?.translateBy(x: 0, y: (mediaBox.height))
         context?.scaleBy(x: 1, y: -1)
-        context?.drawPDFPage(page!)
+        context?.drawPDFPage(page)
         context?.restoreGState ()
     }
     

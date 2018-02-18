@@ -206,7 +206,12 @@ class EditLibraryViewController: UIViewController, UITableViewDelegate, UITableV
     }
   
   }
-  
+    func importTags(_ files: [FileStruct])
+    {
+        self.importTagsFromFiles(files, cb: nil)
+
+    }
+    
   @IBAction func importButtonPressed(_ sender: AnyObject) {
   
     let countOfProject = Project.mr_countOfEntities()
@@ -215,15 +220,17 @@ class EditLibraryViewController: UIViewController, UITableViewDelegate, UITableV
 //      Manager.sharedInstance.startActivity(withMessage: "Importing Tags")
 
       self.fileManager = FileManager_(vc: self, forFileTypes: [.Excel])
-      self.fileManager!.loadFilePicker { files in
-        self.importTagsFromFiles(files, cb: nil)
-      }
+        
+        self.fileManager?.loadFilePicker(importTags)
       
     } else {
       self.performSegue(withIdentifier: "ImportTags", sender: self.importButton)
     }
   }
   
+    
+    
+    
   func importTagsFromFiles(_ files: [FileStruct], cb: ((_ err: String?) -> ())?) {
     
     if files.count == 0 {

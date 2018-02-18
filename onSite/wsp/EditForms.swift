@@ -92,31 +92,32 @@ class EditForms: UIViewController , UITableViewDataSource, UITableViewDelegate  
   }
   
   // let fileManager:FileManager_!
-    
-  @IBAction func onImportPressed(_ sender: UIButton) {
-    
-    self.fileManager = FileManager_(vc: self, forFileTypes: [.PDF])
-    self.fileManager?.loadFilePicker() { files in
-      
-      if files.count == 1 {
-        // load err up!
-        let file = files[0]
-        
-        let form = Form.mr_createEntity()!
-        form.project = self.project!
-        form.setModified()
-        form.title = file.name
-        form.pdfData = file.data
-        form.order = form.nextOrder as NSNumber
-        
-        self.manager.saveCurrentState(nil)
-        
-      } else {
-        let errorString = NSLocalizedString("The form must be a PDF file", comment: "The form must be a PDF file")
-        Manager.sharedInstance.showError(errorString)
-      }
+    func importTags(_ files: [FileStruct])
+    {
+        if files.count == 1 {
+            // load err up!
+            let file = files[0]
+            
+            let form = Form.mr_createEntity()!
+            form.project = self.project!
+            form.setModified()
+            form.title = file.name
+            form.pdfData = file.data
+            form.order = form.nextOrder as NSNumber
+            
+            self.manager.saveCurrentState(nil)
+            
+        } else {
+            let errorString = NSLocalizedString("The form must be a PDF file", comment: "The form must be a PDF file")
+            Manager.sharedInstance.showError(errorString)
+        }
     }
-  }
+    
+
+    @IBAction func onImportPressed(_ sender: UIButton) {
+        self.fileManager = FileManager_(vc: self, forFileTypes: [.PDF])
+        self.fileManager?.loadFilePicker(importTags)
+    }
   
  
   func numberOfSections(in tableView: UITableView) -> Int {

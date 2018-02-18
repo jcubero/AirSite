@@ -35,8 +35,11 @@ class ImportTagsTableViewController: UITableViewController {
       
     }
   }
-  
-  
+  var fileManager: FileManager_?
+    func importTags(_ files: [FileStruct])
+    {
+        self.callingVc.importTagsFromFiles(files, cb:nil)
+    }
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
     tableView.deselectRow(at: indexPath, animated: true)
@@ -46,16 +49,8 @@ class ImportTagsTableViewController: UITableViewController {
     if indexPath.section == 0 {
       switch indexPath.row {
       case 0:
-        let fileManager = FileManager_(vc: self, forFileTypes: [.Excel])
-
-        fileManager.loadFilePicker() { files in
-          self.navigationController!.dismiss(animated: true, completion: nil)
-
-          Manager.sharedInstance.startActivity(withMessage: NSLocalizedString("Importing Tags", comment: "'"))
-
-          self.callingVc.importTagsFromFiles(files, cb: nil)
-          
-        }
+        self.fileManager = FileManager_(vc: self, forFileTypes: [.Excel])
+        self.fileManager?.loadFilePicker(importTags)
       case 1:
         break
       default:
@@ -75,7 +70,7 @@ extension ImportTagsTableViewController: SelectProjectDelegate {
   func selectProject(_ project: Project) {
     
     let manager = Manager.sharedInstance
-    Manager.sharedInstance.startActivity(withMessage: NSLocalizedString("Importing Tags", comment: "'"))
+    // Manager.sharedInstance.startActivity(withMessage: NSLocalizedString("Importing Tags", comment: "'"))
 
     let exporter = ExcelExport(project: project, withObservations: false, withPlans: false)
     

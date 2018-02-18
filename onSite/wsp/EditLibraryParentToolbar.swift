@@ -131,15 +131,15 @@ class EditLibraryParentToolbar: UIView {
   
   func drawLegend(_ s: String, pos: CGFloat) -> CGFloat {
     
-    let attributes = [NSAttributedStringKey.font.rawValue: self.font, NSAttributedStringKey.foregroundColor: self.defaultColor] as! [NSAttributedStringKey : Any]
-    return self.drawTextWithAttributes(s, pos: pos, attributes: attributes as [NSAttributedStringKey : Any])
+    let attributes = [NSAttributedStringKey.font.rawValue: self.font, NSAttributedStringKey.foregroundColor: self.defaultColor] as [AnyHashable : Any]
+    return self.drawTextWithAttributes(s, pos: pos, attributes: attributes)
     
   }
   
-  func drawTextWithAttributes(_ s: String, pos: CGFloat, attributes: [NSAttributedStringKey : Any]) -> CGFloat {
+  func drawTextWithAttributes(_ s: String, pos: CGFloat, attributes: [AnyHashable : Any]) -> CGFloat {
     
     let rect = CGRect(x: pos, y: self.textY, width: 1000, height: self.height)
-    (s as NSString).draw(in: rect, withAttributes: attributes)
+    (s as NSString).draw(in: rect, withAttributes: attributes as? [NSAttributedStringKey : Any])
     
     return self.measureStringWidth(s) + pos
     

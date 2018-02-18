@@ -15,7 +15,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
   
     var project: Project!
     var delegate: ProjectListDelegate!
-    var fileManager: FileManager_!
+    var fileManager_: FileManager_!
   
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +26,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        self.fileManager = nil
+        self.fileManager_ = nil
     }
   
     // Setting color in storyboard has no impact. Not sure why.
@@ -64,7 +64,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
     
         tableView.deselectRow(at: indexPath, animated: true)
         let manager = Manager.sharedInstance
-        self.fileManager = FileManager_(vc: self as UIViewController, forFileTypes: [.Excel, .DB])
+        self.fileManager_ = FileManager_(vc: self as UIViewController, forFileTypes: [.Excel, .DB])
     
         let msgProject = NSLocalizedString("Exporting Project", comment: "Exporting Project")
         let msgReport = NSLocalizedString("Exporting Report", comment: "Exporting Report")
@@ -80,7 +80,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
                 exp.runInBackground() {
                     manager.stopActivity()
                     
-                    self.fileManager!.shareFile(exp.filename!, cb: self.finish)
+                    self.fileManager_!.shareFile(exp.filename!, cb: self.finish)
                 }
             case 1: // Settings
                 Manager.sharedInstance.sendActionEvent("Export Settings", label: self.project.nonEmptyProjectTitle)
@@ -89,7 +89,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
                 let exporter = ExcelExport(project: self.project, withObservations: false, withPlans: false)
                 exporter.promise().then { file -> () in
                     manager.stopActivity()
-                    self.fileManager!.shareFile(file, cb: self.finish)
+                    self.fileManager_!.shareFile(file, cb: self.finish)
                 }
           
             case 2: // Settings + Data
@@ -99,7 +99,7 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
                 let exporter = ExcelExport(project: self.project, withObservations: true, withPlans: false)
                 exporter.promise().then { file -> () in
                     manager.stopActivity()
-                    self.fileManager!.shareFile(file, cb: self.finish)
+                    self.fileManager_!.shareFile(file, cb: self.finish)
                 }
           
             case 3: // Settings + Plans
@@ -155,6 +155,3 @@ class ProjectListExportTableViewController: UITableViewController, UIPopoverPres
         }
     }
 }
-
- 
-

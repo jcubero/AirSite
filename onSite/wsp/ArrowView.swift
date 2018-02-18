@@ -66,7 +66,7 @@ class ArrowView: UIView, NSFetchedResultsControllerDelegate {
         let mX = self.rect.origin.x + (markerX as! CGFloat) * (self.rect.width/self.originalSize.width)
         let mY = self.rect.origin.y + (markerY as! CGFloat) * (self.rect.height/self.originalSize.height)
         
-        let arrowPath = UIBezierPath.bezierPathWithArrowFromPoint(CGPoint(x: mX, y: mY), endPoint: CGPoint(x: x, y: y), tailWidth: 1, headWidth: 8, headLength: 6)
+        let arrowPath = UIBezierPath.bezierPathWithArrowFromPoint(startPoint: CGPoint(x: mX, y: mY), endPoint: CGPoint(x: x, y: y), tailWidth: 1, headWidth: 8, headLength: 6)
         
         var color = position.issue!.color
         if self.avc.drawLighter && !self.avc.darkerIssue(issue) {

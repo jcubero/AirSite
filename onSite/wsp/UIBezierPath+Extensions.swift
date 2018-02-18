@@ -32,24 +32,22 @@ extension UIBezierPath {
   }
   
   
-  class func bezierPathWithArrowFromPoint(_ startPoint:CGPoint, endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
-    
-    let xdiff: Float = Float(endPoint.x) - Float(startPoint.x)
-    let ydiff: Float = Float(endPoint.y) - Float(startPoint.y)
-    let length = hypotf(xdiff, ydiff)
-    
-    var points = [CGPoint]()
-    self.getAxisAlignedArrowPoints(&points, forLength: CGFloat(length), tailWidth: tailWidth, headWidth: headWidth, headLength: headLength)
-    
-    let transform: CGAffineTransform = self.transformForStartPoint(startPoint, endPoint: endPoint, length:  CGFloat(length))
-    
-    let cgPath: CGMutablePath = CGMutablePath()
-    cgPath.addPath(cgPath, transform: transform)
-    cgPath.addLines(between: points, transform: transform)
-    // CGPathAddLines(cgPath, &transform, points, 7)
-    cgPath.closeSubpath()
-    
-    let uiPath: UIBezierPath = UIBezierPath(cgPath: cgPath)
-    return uiPath
-  }
+    class func bezierPathWithArrowFromPoint(startPoint:CGPoint, endPoint: CGPoint, tailWidth: CGFloat, headWidth: CGFloat, headLength: CGFloat) -> UIBezierPath {
+        
+        let xdiff: Float = Float(endPoint.x) - Float(startPoint.x)
+        let ydiff: Float = Float(endPoint.y) - Float(startPoint.y)
+        let length = hypotf(xdiff, ydiff)
+        
+        var points = [CGPoint]()
+        self.getAxisAlignedArrowPoints(&points, forLength: CGFloat(length), tailWidth: tailWidth, headWidth: headWidth, headLength: headLength)
+        
+        var transform: CGAffineTransform = self.transformForStartPoint(startPoint, endPoint: endPoint, length:  CGFloat(length))
+
+        let path = CGMutablePath()
+        path.addLines(between:points)
+        path.closeSubpath()
+        
+        let uiPath: UIBezierPath = UIBezierPath(cgPath:path)
+        return uiPath
+    }
 }

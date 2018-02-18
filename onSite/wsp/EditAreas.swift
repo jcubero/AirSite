@@ -116,7 +116,7 @@ class EditAreas: UIViewController , UITableViewDataSource, UITableViewDelegate {
         let onlyOne: Bool = files.count == 1 ? true : false
         
         for file in files {
-          if file.type == .Image {
+            if file.type == .Image || file.type == .PDF {
             
             let area = Area.mr_createEntity()!
             area.project = self.project!
